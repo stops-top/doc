@@ -21,7 +21,7 @@ jobs:
 
       - name: Build docs
         run: |
-          tox -e docs
+          tox -e source
 
       - name: Preserve Docs
         # if: ${{ github.event_name == 'push' }}
@@ -40,8 +40,8 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     env:
-      DOCS_REPO: stopstopstop/docs
-      DOCS_DIR: docs
+      DOCS_REPO: stopstopstop/Docs
+      DOCS_DIR: source
       LATEST_DOCS_DIR: latest-docs
       RELEASE_BUILD: ${{ startsWith(github.ref, 'refs/tags/v') }}
     if: ${{ github.event_name == 'push' }}
