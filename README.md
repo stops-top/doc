@@ -1,5 +1,6 @@
-# [viewout](https://github.com/stopstopstop/viewout) 
+﻿# [Docs](https://github.com/stopstopstop/Docs)
 
-监控体系辖制内的媒体数据生产端，用于记录山水田园生活全景，包括大纵深和高还原度。
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.stops.top)
 
-体系对接媒体剪辑筛选系统，用于挖掘数据价值
+[![Build Status](https://github.com/stopstopstop/Docs/workflows/Docs/badge.svg)](https://github.com/stopstopstop/Docs/actions/workflows/Docs.yml)
+

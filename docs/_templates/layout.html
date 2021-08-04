@@ -1,0 +1,26 @@
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+{{ super() }}
+<link rel="stylesheet" href="{{ pathto('_static/css/extra.css', 1) }}" type="text/css" />
+<script src="{{ pathto('_static/js/bootstrap.min.js', 1) }}"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7398081349378542" crossorigin="anonymous"></script>
+<!-- <script src="http://dl.platformio.org/misc/abplus.js"></script> -->
+{% endblock %}
+
+{% block menu %}
+{{ super() }}
+<p style="margin-top: 15px;">
+  <!-- Docs: Side Navigation -->
+  <ins class="adsbygoogle ads"
+       style="display:block;background-color: transparent;"
+       data-ad-client="ca-pub-7398081349378542"
+       data-ad-slot="2509136660"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</p>
+{% endblock %}
+
