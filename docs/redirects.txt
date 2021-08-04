@@ -1,1 +1,1 @@
-/STM32F103.html -> /vendor/ST/M3/STM32F103.html
+/M1.html -> /Q1/M1.html
