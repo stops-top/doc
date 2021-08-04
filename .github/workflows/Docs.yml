@@ -91,7 +91,7 @@ jobs:
       - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.SOC_XIN_TOCKEN }}
+          personal_token: ${{ secrets.STOPS_TOKEN }}
           external_repository: ${{ env.DOCS_REPO }}
           publish_dir: ./${{ env.DOCS_DIR }}
           commit_message: Sync Docs
