@@ -2,7 +2,7 @@
 *.pyc
 .pioenvs
 .tox
-docs/_build
+source/_build
 dist
 build
 .cache

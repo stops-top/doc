@@ -26,7 +26,7 @@ jobs:
       - name: Preserve Docs
         # if: ${{ github.event_name == 'push' }}
         run: |
-          tar -czvf docs.tar.gz -C docs/_build html rtdpage
+          tar -czvf docs.tar.gz -C source/_build html rtdpage
 
       - name: Save artifact
         # if: ${{ github.event_name == 'push' }}
