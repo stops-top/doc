@@ -9,7 +9,7 @@
 
 
 .. toctree::
-    :caption:
+    :caption: 自动测试
     :maxdepth: 1
 
-    硬件原型 <M1>
+    核心板卡 <core>
