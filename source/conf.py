@@ -234,10 +234,10 @@ man_pages = [("index", "qitas", u"石头铺", [u"SoC"], 1)]
 texinfo_documents = [
     (
         "index",
-        "SoC",
+        "STOP",
         u"石头铺",
-        u"SoC",
-        "SoC",
+        u"STOP",
+        "STOP",
         "One line description of project.",
         "Miscellaneous",
     ),
@@ -268,5 +268,5 @@ html_context = {
     "github_user": "stopstopstop",
     "github_repo": "Docs",
     "github_version": "master",
-    "conf_py_path": "/",
+    "conf_py_path": "/source/",
 }
