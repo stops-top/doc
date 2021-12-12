@@ -7,9 +7,6 @@
 .. contents::
     :local:
 
-4路串口
------------
-
 
 树莓派
 -----------
@@ -19,3 +16,8 @@
 
 .. image:: ./images/pizero.jpg
     :target: https://docs.os-q.com/Pi
+
+
+串口通信
+-----------
+
