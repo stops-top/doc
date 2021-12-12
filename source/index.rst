@@ -2,11 +2,7 @@
 石头铺
 ==================
 
-`GitHub <https://GitHub.com/stopstopstop>`_ |
-`LinkedIn <https://www.linkedin.com/in/qitas/>`_ |
-`Twitter <https://twitter.com/QitasTang>`_ |
-`Facebook <https://www.facebook.com/qitast>`_
-
+`GitHub <https://GitHub.com/stopstopstop>`_
 
 从研发到产品，还有一段容易被人忽略的过程，让一些容易被忽视的过程被明确下来，然后让其继续被忽略，是我们要完成的一件事。
 
@@ -20,3 +16,9 @@
 设计工厂产线用的设备时，是通过单台设备强大全面，然后部署任意数量，还是通过网络分工的方式精细优化成本，是一个市场化决策必须考虑的问题。
 
 基于光伏和风电设置的地方区域小作坊，产值较低，集中度高，同时可以迁移移动
+
+
+方案验证
+-----------
+
+通过xin方案提供硬件冗余方案，通过OS-Q提供技术组件。
