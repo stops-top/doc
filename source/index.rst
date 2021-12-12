@@ -1,12 +1,10 @@
 
-STOP·STOPS·TOP
+STOPS·TOP
 ==================
 
-**降低门槛，提高效率**
+**领先之道，在停在止**
 
-`GitHub <https://GitHub.com/stopstopstop>`_
-
-石头铺期望解决的核心问题：
+`石头铺 <https://www.stops.top>`_ 期望解决的核心问题：
 
 * Q1:如何提高产品的开发效率，降低工程师的学习成本和调试成本
 * Q2:如何提高产品的生产效率，优化流程，提升过程中数据的价值
@@ -15,11 +13,21 @@ STOP·STOPS·TOP
 
 
 .. toctree::
-    :caption: 嵌入平台
+    :caption: 硬件产品
     :maxdepth: 1
 
     开发套件 <ima>
     核心板卡 <core>
+
+
+.. toctree::
+    :caption: 解决方案
+    :maxdepth: 1
+
+    智慧工厂 <factory>
+
+
+
 
 
 
