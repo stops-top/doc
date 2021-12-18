@@ -1,7 +1,7 @@
 
-.. _factory:
+.. _malloc:
 
-智慧工厂
+malloc
 ==============
 
 .. contents::
