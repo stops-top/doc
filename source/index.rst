@@ -2,7 +2,7 @@
 STOPs
 ==================
 
-**御物以行远，登高需从简**
+**御物行远，登高从简**
 
 `STOPs <https://www.stops.top>`_ 期望解决如下问题：
 
@@ -13,11 +13,12 @@ STOPs
 
 
 .. toctree::
-    :caption: 硬件成品
+    :caption: 硬件标准
     :maxdepth: 1
 
-    开发套件 <ima>
-    功能板卡 <core>
+    Ima开发套件 <ima>
+
+集成标准测试设备，实现在板测试，核心板可更换，功能外设可更换，排针分布兼容Arduino/STM32 NECLEO以及Pi Hat
 
 .. toctree::
     :caption: 整体方案
