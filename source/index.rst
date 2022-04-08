@@ -27,3 +27,6 @@ STOPs
     USBC <usbc>
     NGFF <ngff>
     HUBS <hubs>
+
+`STOPi <https://www.STOPi.cn>`_ 标准化硬件单元，提供开箱即用的硬件运行环境
+
