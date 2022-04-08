@@ -21,9 +21,9 @@ STOPs
 
 
 .. toctree::
-    :caption: 硬件形态
+    :caption: STOPi
     :maxdepth: 1
 
     USBC <usbc>
     NGFF <ngff>
-    QHUB <qhub>
+    HUBS <hubs>
