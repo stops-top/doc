@@ -265,7 +265,7 @@ linkcheck_anchors = False
 
 html_context = {
     "display_github": True,
-    "github_user": "stopstopstop",
+    "github_user": "stops-top",
     "github_repo": "Docs",
     "github_version": "master",
     "conf_py_path": "/source/",

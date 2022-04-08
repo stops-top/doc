@@ -40,7 +40,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     env:
-      DOCS_REPO: stopstopstop/Docs
+      DOCS_REPO: stops-top/Docs
       DOCS_DIR: source
       LATEST_DOCS_DIR: latest-docs
       RELEASE_BUILD: ${{ startsWith(github.ref, 'refs/tags/v') }}
