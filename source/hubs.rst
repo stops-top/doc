@@ -4,5 +4,5 @@
 HUBS
 ===============
 
-`GitHub <https://github.com/STOP-Pi/HUBS>`_ : ``HUB`` ``TEST``
+`GitHub <https://github.com/STOP-Pi/QHUB>`_ : ``QHUB``
 
