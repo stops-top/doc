@@ -4,16 +4,23 @@
 USBC
 ===============
 
-`GitHub <https://github.com/STOP-Pi/USBC>`_ : ``USB-C`` ``USB-PD`` ``USB DAP``
+`GitHub <https://github.com/STOP-Pi/USBC>`_ : ``USB-C`` ``USB-PD`` ``DAP`` ``Web``
 
-硬件认知
+.. contents::
+    :local:
+
+基础参数
 -----------
 
-* USBType-C：8.3mmx2.50mm
-* micro USB：7.4mmx2.35mm
-* lightning：7.5mmx2.50mm
+接口尺寸
+~~~~~~~~~~~
 
-相关说明
+* USB Type-C：8.3mmx2.50mm
+* Micro USB：7.4mmx2.35mm
+* Lightning：7.5mmx2.50mm
+
+通信速率
+~~~~~~~~~~~
 
 * 只带有USB标识：表示支持USB2.0，普通的速率480Mb/s；
 * 带有USB标识，外加SS字样：表示支持USB3.1，速率5Gb/s；
@@ -21,9 +28,11 @@ USBC
 * 带有USB标识，外加SS字样，右上角多了数字10，右边增加D字样：表示支持USB3.1，速率10Gb/s，支持视频显示;
 * 带有USB标识，且有一个黑色的背景：全部支持PD协议，其中5Gb/s的字体为白色
 
+接口分布
+~~~~~~~~~~~
+
 .. image:: ./images/USBC.jpg
     :target: https://baike.baidu.com/item/USB%20Type-C/16565059?fr=aladdin
-
 
 type-c接口的各种特性使用，包括PD和视频信号输出，通过DEMUX电路实现更多功能的集成和智能的选择使能，该单元是可编程控制单元，有自己的协议和相应的管理范围。
 
@@ -37,8 +46,7 @@ USB PD是在CC pin上传输，PD有个VDM （Vendor defined message）功能，�
 
 如果DFP认到device为DP，便切换MUX/ConfiguraTIon Switch，让Type-C USB3.1信号脚改为传输PCIe信号。同样的，PCIe使用RX/TX2和SBU1，SUB2来传输数据，RX/TX1传输USB数据。
 
-端口简介
-~~~~~~~~~~~
+
 
 CC(Configuration Channel)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

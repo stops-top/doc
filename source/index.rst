@@ -24,10 +24,11 @@ STOPs
     :caption: STOPi
     :maxdepth: 1
 
+    PCIE <pcie>
     NGFF <ngff>
     USBC <usbc>
     HUBS <hubs>
-    PCIE <pcie>
+
 
 `STOPi <https://www.STOPi.cn>`_ 标准化硬件单元，提供开箱即用的硬件运行环境
 
