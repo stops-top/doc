@@ -3,7 +3,8 @@
 
 H3-Tool
 ===============
-``Cortex-M7`` ``550MHz`` ``5MSPS-12bit-DAC`` ``3.6MSPS-16bit-ADC`
+
+``Cortex-M7`` ``550MHz`` ``5MSPS-12bit-DAC`` ``3.6MSPS-16bit-ADC``
 
 `GitHub <https://github.com/stops-top/H3-Tool>`_ : `STM32H730 <https://docs.SoC.xin/STM32H730>`_
 

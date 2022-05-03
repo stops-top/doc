@@ -33,33 +33,35 @@ STOPs
     :header-rows:  1
 
     * - :ref:`stops`
-      - USB
-      - Ethernet
-      - Wireless
-      - Camera
-      - ADC
       - CoreMark
+      - USB
+      - Network
+      - UART
+      - ADC
+      - DAC
     * - :ref:`s3`
-      - FS(OTG)
-      -
-      - WiFi+BLE
-      - DVP+UVC
-      - 2x100KSPS(12bit)
       - 1181
+      - FS(OTG)
+      - WiFi 4
+      - 2
+      - 2x12bit(100KSPS)
+      - 0
     * - :ref:`v3`
+      -
       - HS+FS(OTG)
       - 1Gbps
-      -
-      - DVP+UVC
-      - 2x1MSPS(12bit)
-      -
+      - 8
+      - 2x12bit(1MSPS)
+      - 2x12bit
     * - :ref:`h3`
+      - 2778
       - HS(OTG)
       - 100Mbps
-      -
-      -
-      - 2x3.6MSPS(16bit)
-      - 2778
+      - 10
+      - 2x16bit(3.6MSPS)
+      - 2x12bit(5MSPS)
+
+3系列的工具集差异化体现在场景上，通过无线连接的 :ref:`s3` 侧重于单点测试和烧录，:ref:`v3` 作为综合数据网关连接多设备，:ref:`h3` 用于模拟信号采集和处理传输
 
 .. toctree::
     :caption: STOPi
