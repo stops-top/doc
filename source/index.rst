@@ -21,13 +21,22 @@ STOPs
 
 
 .. toctree::
+    :caption: Tools
+    :maxdepth: 1
+
+    S3-Tool <s3>
+    H3-Tool <h3>
+    V3-Tool <v3>
+
+
+.. toctree::
     :caption: STOPi
     :maxdepth: 1
 
-    PCIE <pcie>
     NGFF <ngff>
     USBC <usbc>
-    HUBS <hubs>
+    QHUB <qhub>
+    PCI-E <pcie>
 
 
 `STOPi <https://www.STOPi.cn>`_ 标准化硬件单元，提供开箱即用的硬件运行环境

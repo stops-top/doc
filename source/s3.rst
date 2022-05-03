@@ -1,0 +1,8 @@
+
+.. _s3:
+
+S3-Tool
+===============
+
+`GitHub <https://github.com/stops-top/S3-Tool>`_ : ``ESP32-S3``
+
