@@ -1,3 +1,4 @@
+.. _stops:
 
 STOPs
 ==================
@@ -24,16 +25,47 @@ STOPs
     :caption: Tools
     :maxdepth: 1
 
-    无线测试工具 S3-Tool <s3>
-    综合测试工具 H3-Tool <h3>
-    有线测试工具 V3-Tool <v3>
+    无线工具 S3-Tool <s3>
+    有线工具 V3-Tool <v3>
+    综合工具 H3-Tool <h3>
 
+.. list-table::
+    :header-rows:  1
+
+    * - :ref:`stops`
+      - USB
+      - Ethernet
+      - Wireless
+      - Camera
+      - ADC
+      - CoreMark
+    * - :ref:`s3`
+      - FS(OTG)
+      -
+      - WiFi+BLE
+      - DVP+UVC
+      - 2x100KSPS(12bit)
+      - 1181
+    * - :ref:`v3`
+      - HS+FS(OTG)
+      - 1Gbps
+      -
+      - DVP+UVC
+      - 2x1MSPS(12bit)
+      -
+    * - :ref:`h3`
+      - HS(OTG)
+      - 100Mbps
+      -
+      -
+      - 2x3.6MSPS(16bit)
+      - 2778
 
 .. toctree::
     :caption: STOPi
     :maxdepth: 1
 
-    集成开发环境 PCI-E <pcie>
+    硬件开发环境 PCI-E <pcie>
     集成控制板卡 NGFF <ngff>
     通信转换接头 USBC <usbc>
     标准测试中心 QHUB <qhub>
