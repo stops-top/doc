@@ -4,6 +4,9 @@ STOPs
 
 **出租车送到家，公交车送到站，方便和实惠都有光明的前途**
 
+.. image:: https://github.com/stops-top/Docs/workflows/Docs/badge.svg
+    :target: https://github.com/stops-top/Docs/actions
+
 `STOPs <https://STOPs.top>`_ 求解如下问题：
 
 * 如何提高开发效率，降低工程师的学习成本和诊断成本
@@ -36,36 +39,36 @@ STOPs
       - USB
       - Network
       - Camera
-      - RAM
+      - OPA
       - ADC
       - DAC
     * - :ref:`s3`
-      - 1181(240MHz)
+      - 1181(240M)
       - FS(OTG)
       - WiFi 4
-      - DVP+UVC
-      - 8MB
+      - DVP
+      -
       - 2x12bit(100KSPS)
       - 0
     * - :ref:`v3`
-      -
+      - 400(144M)
       - HS+FS(OTG)
       - 1Gbps
-      - DVP+UVC
-      - 64 KB
+      - DVP
+      - 4
       - 2x12bit(1MSPS)
       - 2x12bit
     * - :ref:`h3`
-      - 2778(550MHz)
+      - 2778(550M)
       - HS(OTG)
       - 100Mbps
-      -
-      - 564 KB
+      - PSSI
+      - 2
       - 2x16bit(3.6MSPS)
       - 2x12bit(5MSPS)
 
 .. hint::
-    通过无线连接的 :ref:`s3` 侧重于单设备烧录测试，:ref:`v3` 作为多设备数据测试网关，:ref:`h3` 用于模拟信号采集、处理和传输
+    无线连接 :ref:`s3` 用于单设备烧录和检测，:ref:`v3` 通过USB HS桥接到PC，:ref:`h3` 侧重模拟信号采集、处理和传输
 
 .. toctree::
     :caption: STOPi
@@ -74,8 +77,7 @@ STOPs
     硬件开发环境 PCI-E <pcie>
     集成控制板卡 NGFF <ngff>
     通信转换接头 USBC <usbc>
-    标准测试中心 QHub <qhub>
-
+    标准测试母板 QHub <qhub>
 
 `STOPi <https://www.STOPi.cn>`_ 提供相应标准，实现高效统一的嵌入式开发生态。
 
