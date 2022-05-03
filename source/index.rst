@@ -27,9 +27,10 @@ STOPs
     :caption: Tools
     :maxdepth: 1
 
-    无线工具 S3-Tool <s3>
-    有线工具 V3-Tool <v3>
-    综合工具 H3-Tool <h3>
+    无线探测 S-Tool <stool>
+    有线连接 V-Tool <vtool>
+    模拟计量 A-Tool <atool>
+    综合应用 H-Tool <htool>
 
 .. list-table::
     :header-rows:  1
@@ -42,7 +43,7 @@ STOPs
       - OPA
       - ADC
       - DAC
-    * - :ref:`s3`
+    * - :ref:`stool`
       - 1181(240M)
       - FS(OTG)
       - WiFi 4
@@ -50,7 +51,7 @@ STOPs
       -
       - 2x12bit(100KSPS)
       - 0
-    * - :ref:`v3`
+    * - :ref:`vtool`
       - 400(144M)
       - HS+FS(OTG)
       - 1Gbps
@@ -58,7 +59,7 @@ STOPs
       - 4
       - 2x12bit(1MSPS)
       - 2x12bit
-    * - :ref:`h3`
+    * - :ref:`htool`
       - 2778(550M)
       - HS(OTG)
       - 100Mbps
@@ -68,7 +69,7 @@ STOPs
       - 2x12bit(5MSPS)
 
 .. hint::
-    无线连接 :ref:`s3` 用于单设备烧录和检测，:ref:`v3` 通过USB HS桥接到PC，:ref:`h3` 侧重模拟信号采集、处理和传输
+    :ref:`stool` 无线连接，对设备烧录和检测，:ref:`vtool` 通过高速连接，USB桥接，:ref:`atool` 侧重高精度模拟信号采集，:ref:`htool` 侧重高速模拟信号采集、处理和传输
 
 .. toctree::
     :caption: STOPi
