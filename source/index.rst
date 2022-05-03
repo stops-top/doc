@@ -1,4 +1,3 @@
-.. _stops:
 
 STOPs
 ==================
@@ -32,7 +31,7 @@ STOPs
 .. list-table::
     :header-rows:  1
 
-    * - :ref:`stops`
+    * - Tools
       - CoreMark
       - USB
       - Network
@@ -70,7 +69,7 @@ STOPs
     硬件开发环境 PCI-E <pcie>
     集成控制板卡 NGFF <ngff>
     通信转换接头 USBC <usbc>
-    标准测试中心 QHUB <qhub>
+    标准测试中心 Qhub <qhub>
 
 
 `STOPi <https://www.STOPi.cn>`_ 提供相应标准，实现高效统一的嵌入式开发生态。
