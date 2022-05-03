@@ -2,7 +2,7 @@
 STOPs
 ==================
 
-**出租车送到家，公交车送到站，方便和实惠都有光明的前途**
+**出租车送到家，公交车只到站，方便和实惠都有光明的前途**
 
 .. image:: https://github.com/stops-top/Docs/workflows/Docs/badge.svg
     :target: https://github.com/stops-top/Docs/actions
@@ -23,19 +23,11 @@ STOPs
 `STOPs.top <https://www.STOPs.top>`_ 解决不知道干什么，中心是 ``需求`` ，产品定义和实现与产品制造推广分离，精细化分层分工，实现市场定价和资源互补，尤其是实现技术实力和资源实力的平等联姻。
 
 
-.. toctree::
-    :caption: Tools
-    :maxdepth: 1
-
-    无线探针 S-Tool <stool>
-    有线探针 V-Tool <vtool>
-    信号转换 A-Tool <atool>
-    综合应用 H-Tool <htool>
 
 ==================  ==================  ==================  ==================
-|无线探针|_          |有线探针|_         |信号转换|_          |综合应用|_
+|无线探针|_          |有线探针|_         |信号转换|_          |综合测量|_
 ------------------  ------------------  ------------------  ------------------
-`无线探针`_          `有线探针`_         `信号转换`_          `综合应用`_
+`无线探针工具`_      `有线探针工具`_      `信号转换工具`_      `综合测量工具`_
 ==================  ==================  ==================  ==================
 
 .. |无线探针| image:: ./_static/images/espressif.png
@@ -47,9 +39,17 @@ STOPs
 .. |信号转换| image:: ./_static/images/guide.png
 .. _信号转换: ./atool.html
 
-.. |综合应用| image:: ./_static/images/started.png
-.. _综合应用: ./htool.html
+.. |综合测量| image:: ./_static/images/started.png
+.. _综合测量: ./htool.html
 
+.. toctree::
+    :caption: Tools
+    :maxdepth: 1
+
+    无线探针 S-Tool <stool>
+    有线探针 V-Tool <vtool>
+    信号转换 A-Tool <atool>
+    综合应用 H-Tool <htool>
 
 .. hint::
     WiFi/BLE连接 :ref:`stool` 探针设备，USB/ETH连接 :ref:`vtool` 探针设备，:ref:`atool` 高精度模拟信号采集，:ref:`htool` 高速信号采集、处理和传输
