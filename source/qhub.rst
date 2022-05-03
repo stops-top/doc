@@ -1,7 +1,7 @@
 
 .. _qhub:
 
-Qhub
+QHub
 ===============
 
 `GitHub <https://github.com/STOP-Pi/QHUB>`_ : ``Arduino``

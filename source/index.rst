@@ -35,32 +35,37 @@ STOPs
       - CoreMark
       - USB
       - Network
-      - UART
+      - Camera
+      - RAM
       - ADC
       - DAC
     * - :ref:`s3`
-      - 1181
+      - 1181(240MHz)
       - FS(OTG)
       - WiFi 4
-      - 2
+      - DVP+UVC
+      - 8MB
       - 2x12bit(100KSPS)
       - 0
     * - :ref:`v3`
       -
       - HS+FS(OTG)
       - 1Gbps
-      - 8
+      - DVP+UVC
+      - 64 KB
       - 2x12bit(1MSPS)
       - 2x12bit
     * - :ref:`h3`
-      - 2778
+      - 2778(550MHz)
       - HS(OTG)
       - 100Mbps
-      - 10
+      -
+      - 564 KB
       - 2x16bit(3.6MSPS)
       - 2x12bit(5MSPS)
 
-3系列的工具集差异化体现在场景上，通过无线连接的 :ref:`s3` 侧重于单点测试和烧录，:ref:`v3` 作为综合数据网关连接多设备，:ref:`h3` 用于模拟信号采集和处理传输
+.. hint::
+    通过无线连接的 :ref:`s3` 侧重于单设备烧录测试，:ref:`v3` 作为多设备数据测试网关，:ref:`h3` 用于模拟信号采集、处理和传输
 
 .. toctree::
     :caption: STOPi
@@ -69,7 +74,7 @@ STOPs
     硬件开发环境 PCI-E <pcie>
     集成控制板卡 NGFF <ngff>
     通信转换接头 USBC <usbc>
-    标准测试中心 Qhub <qhub>
+    标准测试中心 QHub <qhub>
 
 
 `STOPi <https://www.STOPi.cn>`_ 提供相应标准，实现高效统一的嵌入式开发生态。
