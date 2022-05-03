@@ -27,49 +27,32 @@ STOPs
     :caption: Tools
     :maxdepth: 1
 
-    无线探测 S-Tool <stool>
-    有线连接 V-Tool <vtool>
-    模拟计量 A-Tool <atool>
+    无线探针 S-Tool <stool>
+    有线探针 V-Tool <vtool>
+    信号转换 A-Tool <atool>
     综合应用 H-Tool <htool>
 
-.. list-table::
-    :header-rows:  1
+==================  ==================  ==================  ==================
+|无线探针|_          |有线探针|_         |信号转换|_          |综合应用|_
+------------------  ------------------  ------------------  ------------------
+`无线探针`_          `有线探针`_         `信号转换`_          `综合应用`_
+==================  ==================  ==================  ==================
 
-    * - Tools
-      - CoreMark
-      - USB
-      - Network
-      - Camera
-      - OPA
-      - ADC
-      - DAC
-    * - :ref:`stool`
-      - 1181(240M)
-      - FS(OTG)
-      - WiFi 4
-      - DVP
-      -
-      - 2x12bit(100KSPS)
-      - 0
-    * - :ref:`vtool`
-      - 400(144M)
-      - HS+FS(OTG)
-      - 1Gbps
-      - DVP
-      - 4
-      - 2x12bit(1MSPS)
-      - 2x12bit
-    * - :ref:`htool`
-      - 2778(550M)
-      - HS(OTG)
-      - 100Mbps
-      - PSSI
-      - 2
-      - 2x16bit(3.6MSPS)
-      - 2x12bit(5MSPS)
+.. |无线探针| image:: ./_static/images/espressif.png
+.. _无线探针: ./stool.html
+
+.. |有线探针| image:: ./_static/images/contribute.png
+.. _有线探针: ./vtool.html
+
+.. |信号转换| image:: ./_static/images/guide.png
+.. _信号转换: ./atool.html
+
+.. |综合应用| image:: ./_static/images/started.png
+.. _综合应用: ./htool.html
+
 
 .. hint::
-    :ref:`stool` 无线连接，对设备烧录和检测，:ref:`vtool` 通过高速连接，USB桥接，:ref:`atool` 侧重高精度模拟信号采集，:ref:`htool` 侧重高速模拟信号采集、处理和传输
+    WiFi/BLE连接 :ref:`stool` 探针设备，USB/ETH连接 :ref:`vtool` 探针设备，:ref:`atool` 高精度模拟信号采集，:ref:`htool` 高速信号采集、处理和传输
 
 .. toctree::
     :caption: STOPi
@@ -80,5 +63,6 @@ STOPs
     通信转换接头 USBC <usbc>
     标准测试母板 QHub <qhub>
 
-`STOPi <https://www.STOPi.cn>`_ 提供相应标准，实现高效统一的嵌入式开发生态。
+.. hint::
+    `STOPi <https://www.STOPi.cn>`_ 致力于提供开放统一的接口标准，提升嵌入式生态的标准化程度
 

@@ -3,7 +3,7 @@
 
 A-Tool
 ===============
-``ADC`` ``24bit`` ``USB``
+``24bit Σ-∆ ADC`` ``USB``
 
-`GitHub <https://github.com/stops-top/A-Tool>`_ : `ZML166 <https://docs.SoC.xin/ZML165>`_
+`GitHub <https://github.com/stops-top/A-Tool>`_ : `ZML165/ZML166 <https://docs.SoC.xin/ZML165>`_
 
