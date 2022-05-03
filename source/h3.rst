@@ -4,5 +4,5 @@
 H3-Tool
 ===============
 
-`GitHub <https://github.com/stops-top/H3-Tool>`_ : ``STM32H730``
+`GitHub <https://github.com/stops-top/H3-Tool>`_ : `STM32H730 <https://docs.SoC.xin/STM32H730>`_
 

@@ -24,20 +24,20 @@ STOPs
     :caption: Tools
     :maxdepth: 1
 
-    S3-Tool <s3>
-    H3-Tool <h3>
-    V3-Tool <v3>
+    无线测试工具 S3-Tool <s3>
+    综合测试工具 H3-Tool <h3>
+    有线测试工具 V3-Tool <v3>
 
 
 .. toctree::
     :caption: STOPi
     :maxdepth: 1
 
-    NGFF <ngff>
-    USBC <usbc>
-    QHUB <qhub>
-    PCI-E <pcie>
+    集成开发环境 PCI-E <pcie>
+    集成控制板卡 NGFF <ngff>
+    通信转换接头 USBC <usbc>
+    标准测试中心 QHUB <qhub>
 
 
-`STOPi <https://www.STOPi.cn>`_ 标准化硬件单元，提供开箱即用的硬件运行环境
+`STOPi <https://www.STOPi.cn>`_ 提供相应标准，实现高效统一的嵌入式开发生态。
 

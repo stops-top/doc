@@ -4,5 +4,5 @@
 V3-Tool
 ===============
 
-`GitHub <https://github.com/stops-top/V3-Tool>`_ : ``CH32V307``
+`GitHub <https://github.com/stops-top/V3-Tool>`_ : `CH32V307 <https://docs.SoC.xin/CH32V307>`_
 
