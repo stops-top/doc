@@ -3,7 +3,7 @@
 
 S-Tool
 ===============
-``Wi-Fi`` ``BLE5.0`` ``USB1.1 OTG`` ``CAN`` ``DVP`` ``QFN56``
+``Wi-Fi`` ``USB OTG``
 
 `GitHub <https://github.com/stops-top/S-Tool>`_ : `ESP32-S2/ESP32-S3 <https://docs.SoC.xin/ESP32-S3>`_
 
@@ -34,14 +34,6 @@ S-Tool
       - 4
       - 2x12bit(1MSPS)
       - 2x12bit
-    * - :ref:`atool`
-      -
-      - FS(D)
-      -
-      -
-      -
-      -
-      -
     * - :ref:`htool`
       - 2778(550M)
       - HS(OTG)
@@ -50,3 +42,7 @@ S-Tool
       - 2
       - 2x16bit(3.6MSPS)
       - 2x12bit(5MSPS)
+
+* 绑定远端IP实现本地设备调试开发
+* 通过地址拉取相应固件并针对下载
+* 直接按照编译文件的地址进行烧录

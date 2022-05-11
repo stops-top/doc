@@ -38,7 +38,7 @@ master_doc = "index"
 
 # General information about the project.
 project = u"STOPs"
-copyright = u'2021 - {} STOPs.top'.format(current_year)
+copyright = u'{} STOPs.top'.format(current_year)
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
