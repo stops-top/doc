@@ -23,45 +23,10 @@ STOPs
 `STOPs.top <https://www.STOPs.top>`_ 解决不知道干什么，核心是 ``需求`` ，产品定义和实现与产品制造推广分离，精细化分层分工，实现市场定价和资源互补，尤其是实现技术实力和资源实力的平等联姻。
 
 
-==================  ==================  ==================  ==================
-|无线探针|_          |有线探针|_         |信号转换|_          |综合测量|_
-------------------  ------------------  ------------------  ------------------
-`无线探针`_          `有线探针`_         `信号转换`_          `综合测量`_
-==================  ==================  ==================  ==================
-
-.. |无线探针| image:: ./_static/images/espressif.png
-.. _无线探针: ./stool.html
-
-.. |有线探针| image:: ./_static/images/contribute.png
-.. _有线探针: ./vtool.html
-
-.. |信号转换| image:: ./_static/images/guide.png
-.. _信号转换: ./atool.html
-
-.. |综合测量| image:: ./_static/images/started.png
-.. _综合测量: ./htool.html
-
 .. toctree::
-    :caption: Tools
     :maxdepth: 1
 
-    无线探针 S-Tool <stool>
-    有线探针 V-Tool <vtool>
-    信号转换 A-Tool <atool>
-    综合测量 H-Tool <htool>
-
-.. hint::
-    WiFi/BLE连接 :ref:`stool` 探针，USB/ETH连接 :ref:`vtool` 探针，:ref:`atool` 采集高精度模拟信号，:ref:`htool` 采集高速信号并处理传输
-
-.. toctree::
-    :caption: STOPi
-    :maxdepth: 1
-
-    硬件开发环境 PCI-E <pcie>
-    集成控制板卡 NGFF <ngff>
-    通信转换接头 USBC <usbc>
-    标准测试母板 QHub <qhub>
-
-.. hint::
-    `STOPi <https://www.STOPi.cn>`_ 致力于在统一的接口标准上构建嵌入式单元模块，提升嵌入式生态的标准化程度
+    辅助工具 <tools/index>
+    接口标准 <stopi/index>
+    知识管理 <motes/index>
 

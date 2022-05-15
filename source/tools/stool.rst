@@ -7,6 +7,8 @@ S-Tool
 
 `GitHub <https://github.com/stops-top/S-Tool>`_ : `ESP32-S2/ESP32-S3 <https://docs.SoC.xin/ESP32-S3>`_
 
+在新一轮的嵌入式开发升级中，需要改变以往重环境的现状，标准化环境的灵活部署和协同，云加速及相应硬件端的搭配，实现嵌入式开发的远程化。
+
 .. list-table::
     :header-rows:  1
 
