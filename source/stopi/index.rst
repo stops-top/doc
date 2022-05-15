@@ -3,9 +3,7 @@
 接口标准
 ==================
 
-**STOP Interface**
-
-`STOPi <https://www.STOPi.cn>`_ 开放STOP开发接口标准，构建通用、可替换、可升级的嵌入式单元模块，提升嵌入式生态的标准化程度。
+`STOP Interface <https://www.STOPi.cn>`_ 开发接口标准，构建通用、可替换、可升级的嵌入式单元模块，提升嵌入式生态的标准化程度。
 
 .. list-table::
     :header-rows:  1
