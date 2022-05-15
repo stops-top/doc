@@ -1,7 +1,7 @@
 
 .. _qhub:
 
-QHub
+标准测试容器
 ===============
 
 `GitHub <https://github.com/STOP-Pi/QHUB>`_ : ``Arduino``

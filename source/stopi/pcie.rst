@@ -1,7 +1,7 @@
 
 .. _pcie:
 
-PCIe
+环境管理板卡
 ===============
 
 `GitHub <https://github.com/STOP-Pi/PCIE>`_ : ``PCI-E``

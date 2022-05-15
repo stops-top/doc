@@ -1,7 +1,7 @@
 
 .. _usbc:
 
-USBC
+通信扩展线缆
 ===============
 
 `GitHub <https://github.com/STOP-Pi/USBC>`_ : ``USB-C`` ``USB-PD`` ``DAP`` ``Web``
