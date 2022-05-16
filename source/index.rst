@@ -29,4 +29,5 @@ STOPs
     辅助工具 <tools/index>
     接口标准 <stopi/index>
     知识管理 <motes/index>
+    电脑设备 <pc/index>
 

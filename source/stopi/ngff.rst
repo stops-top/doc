@@ -1,7 +1,7 @@
 
 .. _ngff:
 
-嵌入控制单元
+嵌入单元
 ===============
 
 `GitHub <https://github.com/STOP-Pi/NGFF>`_ : ``NGFF``
