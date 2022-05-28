@@ -37,7 +37,7 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = u"STOP"
+project = u"Stop"
 copyright = u'2021-{} www.STOPs.top'.format(current_year)
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -107,7 +107,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = "STOP"
+html_title = "Stop"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 # html_short_title = None
@@ -176,7 +176,7 @@ html_show_sphinx = False
 html_baseurl = "https://docs.stops.top"
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "STOP"
+htmlhelp_basename = "Stop"
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -193,7 +193,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ("index", "stop.tex", u"STOP", u"STOP", "manual"),
+    ("index", "stop.tex", u"Stop", u"Stop", "manual"),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -235,10 +235,10 @@ man_pages = [("index", "qitas", u"石头铺", [u"SoC"], 1)]
 texinfo_documents = [
     (
         "index",
-        "STOP",
-        u"石头铺",
-        u"STOP",
-        "STOP",
+        "Stop",
+        u"Stop",
+        u"Stop",
+        "Stop",
         "One line description of project.",
         "Miscellaneous",
     ),

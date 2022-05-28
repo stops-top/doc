@@ -7,17 +7,15 @@ STOP
 .. image:: https://github.com/stops-top/Docs/workflows/Docs/badge.svg
     :target: https://github.com/stops-top/Docs/actions
 
-* 如何提高开发效率，降低工程师的学习难度和诊断难度
-* 如何提高生产效率，完整收集的数据可以持续优化流程
-* 如何提高使用体验，全生命周期状态管理，产品即服务
-* 如何提高项目价值，智力成果工具化，链接能力和需求
 
-.. image:: _static/images/cutout.png
+.. image:: _static/images/all.png
+    :target: https://www.stops.top
 
 .. toctree::
     :maxdepth: 1
 
-    辅助工具 <tools/index>
-    接口标准 <stopi/index>
-    计算终端 <stopu/index>
+    如何提高开发效率，降低工程师的学习难度和诊断难度 <tools/index>
+    如何提高生产效率，标准化，完整的数据持续优化流程 <stopi/index>
+    如何提高使用体验，提高功能集成度，预定场景模块化 <stopc/index>
+    如何提高项目价值，成果经验工具化，价值和需求链接 <stopu/index>
 
