@@ -2,68 +2,122 @@
 
 STool
 ===============
-``Wi-Fi`` ``USB OTG``
+``Wi-Fi`` ``USB`` ``JTAG``
 
-在新一轮的嵌入式开发升级中，需要改变以往重环境的现状，标准化环境的灵活部署和协同，云加速及相应硬件端的搭配，实现嵌入式开发的远程化。
+相关开发逐步上云，但是能够连接云端进行烧录和调试的工具缺乏，不同操作系统对于硬件的支持不同，多系统环境或容器环境下适配差；
+
+如何通过边云协同绑定，实现嵌入式硬件开发的CICD同步，无人干预的自动化测试集成，远程管理服务减少运营成本；
 
 * 绑定远端IP实现本地设备调试开发
 * 通过地址拉取相应固件并针对下载
 * 直接按照编译文件的地址进行烧录
 
-
 .. list-table::
     :header-rows:  1
 
-    * - Tools
-      - CoreMark
-      - USB
-      - Network
-      - Camera
-      - OPA
-      - ADC
-      - DAC
     * - :ref:`stool`
-      - 1181(240M)
-      - FS(OTG)
-      - WiFi 4
+      - WiFi
+      - BLE
+      - ETH
+      - USB
       - DVP
-      -
-      - 2x12bit(100KSPS)
-      - 0
-    * - :ref:`vtool`
-      - 400(144M)
-      - HS+FS(OTG)
-      - 1Gbps
-      - DVP
-      - 4
-      - 2x12bit(1MSPS)
-      - 2x12bit
-    * - :ref:`htool`
-      - 2778(550M)
-      - HS(OTG)
-      - 100Mbps
-      - PSSI
-      - 2
-      - 2x16bit(3.6MSPS)
-      - 2x12bit(5MSPS)
+      - DAC
+      - JTAG
+      - SWD
+    * - :ref:`stool_s1`
+      - √
+      - √
+      - √
+      - X
+      - √
+      - √
+      - √
+      - X
+    * - :ref:`stool_s2`
+      - √
+      - X
+      - X
+      - √
+      - √
+      - √
+      - X
+    * - :ref:`stool_s3`
+      - √
+      - √
+      - X
+      - √
+      - √
+      - X
+      - √
+      - X
+    * - :ref:`stool_c1`
+      - X
+      - √
+      - √
+      - √
+      - X
+      - X
+      - X
+      - √
+    * - :ref:`stool_c2`
+      - X
+      - √
+      - √
+      - √
+      - X
+      - X
+      - X
+      - √
+    * - :ref:`stool_c3`
+      - X
+      - X
+      - √
+      - √
+      - √
+      - √
+      - X
+      - √
 
 
+.. contents::
+    :local:
+    :depth: 1
 
-.. _htool:
+.. _stool_s1:
 
-HTool
-------------------
-``Cortex-M7`` ``550MHz`` ``5MSPS-12bit-DAC`` ``3.6MSPS-16bit-ADC`` ``PSSI``
+STool-S1
+-----------
+``ESP32`` ``Wi-Fi`` ``BLE`` ``ETH`` ``JTAG`` ``DVP``
+
+.. _stool_s2:
+
+STool-S2
+-----------
+``ESP32-S2`` ``Wi-Fi`` ``USB`` ``JTAG`` ``DVP`` ``DAC``
+
+.. _stool_s3:
+
+STool-S3
+-----------
+``ESP32-S3`` ``Wi-Fi`` ``BLE`` ``USB`` ``JTAG`` ``DVP``
 
 
-.. _vtool:
+.. _stool_c1:
 
-VTool
-------------------
-``RISC-V`` ``USB-HS(480Mbps)`` ``10Mbps(PHY)`` ``1Gbps(MAC)`` ``FSMC`` ``OPA`` ``DVP``
+STool-C1
+-----------
+``CH579`` ``BLE`` ``ETH`` ``USB`` ``JTAG`` ``SWD``
 
 
+.. _stool_c2:
 
-.. hint::
-    WiFi/BLE连接 :ref:`stool` 探针，USB/ETH连接 :ref:`vtool` 探针，:ref:`htool` 采集高速信号并处理传输
+STool-C2
+-----------
+``CH32F208`` ``BLE`` ``ETH`` ``USB`` ``JTAG`` ``SWD``
 
+
+.. _stool_c3:
+
+STool-C3
+-----------
+``CH32F207`` ``ETH`` ``USB`` ``JTAG`` ``SWD`` ``DVP``
