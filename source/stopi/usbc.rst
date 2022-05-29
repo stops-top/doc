@@ -8,13 +8,23 @@
 
 .. contents::
     :local:
+    :depth: 1
 
-基础参数
+
+
+
+基础概念
 -----------
 
 USB（Universal Serial Bus）全称通用串口总线，支持热插拔。
 
 USB协议版本有USB1.0、USB1.1、USB2.0、USB3.1等，USB2.0目前比较常用。
+
+.. toctree::
+    :maxdepth: 1
+
+    USB  <usb>
+
 
 接口尺寸
 ~~~~~~~~~~~
@@ -73,9 +83,4 @@ DRP(Dual Role Port)
 双角色端口，DRP既可以做DFP(Host)，也可以做UFP(Device)，也可以在DFP与UFP间动态切换。典型的DRP设备是笔记本电脑。
 
 
-
-USBC-V1
------------
-
-`ESP32-S2版本 <https://docs.soc.xin/espressif/ESP32-S2.html#usb-pd>`_ 实现PD供电和WiFi连接，实现联网管理。
 

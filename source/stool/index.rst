@@ -22,7 +22,7 @@ STool
       - BLE
       - ETH
       - USB
-      - :ref:`stool_dvp`
+      - :ref:`stool_cam`
       - DAC
       - :ref:`stool_jtag`
       - :ref:`stool_swd`
@@ -88,30 +88,36 @@ STool
 
 .. _stool_s:
 
-S Series
+S-Series
 -----------
 
 .. _stool_s1:
 
 STool-S1
------------
+~~~~~~~~~~~
 ``ESP32`` ``Wi-Fi`` ``BLE`` ``ETH`` ``JTAG`` ``DVP``
+
+`ESP32主控 <https://docs.soc.xin/ESP32>`_
 
 .. _stool_s2:
 
 STool-S2
------------
+~~~~~~~~~~~
 ``ESP32-S2`` ``Wi-Fi`` ``USB`` ``JTAG`` ``DVP`` ``DAC``
+
+`ESP32-S2主控 <https://docs.soc.xin/ESP32-S2>`_ PD供电和WiFi连接，联网管理
 
 .. _stool_s3:
 
 STool-S3
------------
+~~~~~~~~~~~
 ``ESP32-S3`` ``Wi-Fi`` ``BLE`` ``USB`` ``JTAG`` ``DVP``
+
+`ESP32-S3主控 <https://docs.soc.xin/ESP32-S3>`_
 
 .. _stool_c:
 
-C Series
+C-Series
 -----------
 
 .. _stool_c1:
@@ -120,6 +126,7 @@ STool-C1
 ~~~~~~~~~~~
 ``CH579`` ``BLE`` ``ETH`` ``USB`` ``JTAG`` ``SWD``
 
+`CH579主控 <https://docs.soc.xin/CH579>`_
 
 .. _stool_c2:
 
@@ -127,6 +134,7 @@ STool-C2
 ~~~~~~~~~~~
 ``CH32F208`` ``BLE`` ``ETH`` ``USB`` ``JTAG`` ``SWD``
 
+`CH32F208主控 <https://docs.soc.xin/CH32F208>`_
 
 .. _stool_c3:
 
@@ -134,9 +142,12 @@ STool-C3
 ~~~~~~~~~~~
 ``CH32F207`` ``ETH`` ``USB`` ``JTAG`` ``SWD`` ``DVP``
 
+`CH32F207主控 <https://docs.soc.xin/CH32F207>`_
+
+
 .. _stool_cam:
 
-Camera IF
+Camera
 -----------
 
 .. _stool_dvp:
@@ -144,11 +155,15 @@ Camera IF
 DVP
 ~~~~~~~~~~~
 
+.. _stool_uvc:
+
+UVC
+~~~~~~~~~~~
 
 
 .. _stool_debug:
 
-Debug IF
+Debug
 -----------
 
 .. _stool_jtag:
