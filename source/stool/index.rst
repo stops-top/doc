@@ -23,7 +23,7 @@ STool
       - ETH
       - USB
       - :ref:`stool_cam`
-      - DAC
+      - :ref:`stool_avs`
       - :ref:`stool_jtag`
       - :ref:`stool_swd`
     * - :ref:`stool_s1`
@@ -159,6 +159,13 @@ DVP
 
 UVC
 ~~~~~~~~~~~
+
+.. _stool_avs:
+
+AVS
+-----------
+``Adjustable voltage supply``
+
 
 
 .. _stool_debug:
