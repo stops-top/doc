@@ -166,7 +166,7 @@ RL-USB
 .. image:: ./images/usbblockdiagr.png
     :target: https://www.keil.com/support/man/docs/rlarm/rlarm_usb.htm
 
-主要的布道推广者为 ` armfly <https://www.armbbs.cn/forum.php?mod=forumdisplay&fid=47>`_
+主要布道推广者: `armfly <https://www.armbbs.cn/forum.php?mod=forumdisplay&fid=47>`_
 
 
 tinyUSB
