@@ -15,7 +15,7 @@ STOP
     :target: https://www.stops.top
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     辅助工具 <stool/index>
     接口定义 <stopi/index>
