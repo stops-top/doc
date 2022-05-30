@@ -55,6 +55,6 @@
 
     资源管理 PCI-E <pcie>
     嵌入模块 NGFF <ngff>
-    通信扩展 USBC <usbc>
+    线缆扩展 USBC <usbc>
     测试容器 QHub <qhub>
 
