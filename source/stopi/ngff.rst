@@ -1,13 +1,21 @@
 
 .. _ngff:
 
-核心单元
+嵌入模块
 ===============
 
 `GitHub <https://github.com/STOP-Pi/NGFF>`_ : ``NGFF``
 
 .. image:: ./images/ngff.png
     :target: https://baike.baidu.com/item/m.2%E6%8E%A5%E5%8F%A3/18010680?fromtitle=NGFF&fromid=1576143&fr=aladdin
+
+
+.. contents::
+    :local:
+    :depth: 1
+
+相关概念
+-----------
 
 M.2接口是一种新的主机接口方案，可以兼容多种通信协议，如sata、PCIe、USB、HSIC、UART、SMBus等。
 

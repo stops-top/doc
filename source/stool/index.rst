@@ -118,9 +118,14 @@ Series
 
 S-Series
 ~~~~~~~~~~~
+
+.. contents::
+    :local:
+    :depth: 1
+
 .. _stool_s1:
 
-Tool-S1
+S1
 ^^^^^^^^^^^
 ``ESP32`` ``Wi-Fi`` ``BLE`` ``ETH`` ``JTAG`` ``DVP``
 
@@ -128,7 +133,7 @@ Tool-S1
 
 .. _stool_s2:
 
-Tool-S2
+S2
 ^^^^^^^^^^^
 ``ESP32-S2`` ``Wi-Fi`` ``USB`` ``JTAG`` ``DVP`` ``DAC``
 
@@ -136,7 +141,7 @@ Tool-S2
 
 .. _stool_s3:
 
-Tool-S3
+S3
 ^^^^^^^^^^^
 ``ESP32-S3`` ``Wi-Fi`` ``BLE`` ``USB`` ``JTAG`` ``DVP``
 
@@ -147,9 +152,13 @@ Tool-S3
 C-Series
 ~~~~~~~~~~~
 
+.. contents::
+    :local:
+    :depth: 1
+
 .. _stool_c1:
 
-Tool-C1
+C1
 ^^^^^^^^^^^
 ``CH579`` ``BLE`` ``ETH`` ``USB`` ``JTAG`` ``SWD``
 
@@ -157,7 +166,7 @@ Tool-C1
 
 .. _stool_c2:
 
-Tool-C2
+C2
 ^^^^^^^^^^^
 ``CH32F208`` ``BLE`` ``ETH`` ``USB`` ``JTAG`` ``SWD``
 
@@ -165,11 +174,28 @@ Tool-C2
 
 .. _stool_c3:
 
-Tool-C3
+C3
 ^^^^^^^^^^^
 ``CH32F207`` ``ETH`` ``USB`` ``JTAG`` ``SWD`` ``DVP``
 
 `CH32F207主控 <https://docs.soc.xin/CH32F207>`_
+
+.. _stool_h:
+
+H-Series
+~~~~~~~~~~~
+
+.. contents::
+    :local:
+    :depth: 1
+
+.. _stool_h1:
+
+H1
+^^^^^^^^^^^
+``STM32H7``
+
+`STM32H7主控 <https://docs.soc.xin/STM32H750>`_
 
 
 .. _stool_if:
@@ -177,6 +203,9 @@ Tool-C3
 Interface
 -----------
 
+.. contents::
+    :local:
+    :depth: 1
 
 .. _stool_cam:
 
@@ -184,6 +213,10 @@ Camera
 ~~~~~~~~~~~
 
 实现实时图传，用于同步显示和图像定位分析
+
+.. contents::
+    :local:
+    :depth: 1
 
 .. _stool_dvp:
 
@@ -200,6 +233,10 @@ UVC
 
 Loader
 ~~~~~~~~~~~
+
+.. contents::
+    :local:
+    :depth: 1
 
 .. _stool_jtag:
 

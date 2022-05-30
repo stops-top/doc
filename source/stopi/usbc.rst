@@ -4,7 +4,7 @@
 通信扩展
 ===============
 
-`GitHub <https://github.com/STOP-Pi/USBC>`_ : ``USB-C`` ``USB-PD`` ``DAP`` ``Web``
+`GitHub <https://github.com/STOP-Pi/USBC>`_ : ``USB-C`` ``USB-PD`` ``SWD`` ``UART``
 
 .. contents::
     :local:
@@ -21,24 +21,20 @@ USB（Universal Serial Bus）支持热插拔，协议版本有USB1.0、USB1.1、
 
     USB简介  <usb>
 
-
-接口尺寸
-~~~~~~~~~~~
-
 * USB Type-C：8.3mmx2.50mm
 * Micro USB：7.4mmx2.35mm
 * Lightning：7.5mmx2.50mm
 
-通信速率
-~~~~~~~~~~~
 
-* 只带有USB标识：表示支持USB2.0，普通的速率480Mb/s；
+常见主板的接口标识：
+
+* 带有USB标识：表示支持USB2.0，普通的速率480Mb/s；
 * 带有USB标识，外加SS字样：表示支持USB3.1，速率5Gb/s；
 * 带有USB标识，外加SS字样，右上角多了数字10：表示支持USB3.1，速率10Gb/s；
 * 带有USB标识，外加SS字样，右上角多了数字10，右边增加D字样：表示支持USB3.1，速率10Gb/s，支持视频显示;
 * 带有USB标识，且有一个黑色的背景：全部支持PD协议，其中5Gb/s的字体为白色
 
-接口分布
+接口定义
 ~~~~~~~~~~~
 
 .. image:: ./images/USBC.jpg
