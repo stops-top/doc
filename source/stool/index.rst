@@ -2,16 +2,7 @@
 
 STool
 ===============
-``Wi-Fi`` ``USB`` ``JTAG``
-
-相关开发逐步上云，但是能够连接云端进行烧录和调试的工具缺乏，不同操作系统对于硬件的支持不同，多系统环境或容器环境下适配差；
-
-如何通过边云协同绑定，实现嵌入式硬件开发的CICD同步，无人干预的自动化测试集成，远程管理服务减少运营成本；
-
-* 绑定远端IP实现本地设备调试开发
-* 通过地址拉取相应固件并针对下载
-* 直接按照编译文件的地址进行烧录
-
+``Wi-Fi`` ``BLE`` ``USB`` ``OTA`` ``JTAG`` ``SWD``
 
 
 .. list-table::
@@ -27,6 +18,7 @@ STool
       - :ref:`stool_cam`
       - :ref:`stool_jtag`
       - :ref:`stool_swd`
+      - :ref:`stool_uart`
     * - :ref:`stool_s1`
       - √
       - √
@@ -37,6 +29,7 @@ STool
       - :ref:`stool_dvp`
       - √
       - X
+      - √
     * - :ref:`stool_s2`
       - √
       - X
@@ -47,6 +40,7 @@ STool
       - :ref:`stool_dvp`
       - √
       - X
+      - √
     * - :ref:`stool_s3`
       - √
       - √
@@ -57,6 +51,7 @@ STool
       - :ref:`stool_dvp`
       - √
       - X
+      - √
     * - :ref:`stool_c1`
       - X
       - √
@@ -66,6 +61,7 @@ STool
       - √
       - X
       - X
+      - √
       - √
     * - :ref:`stool_c2`
       - X
@@ -77,6 +73,7 @@ STool
       - X
       - X
       - √
+      - √
     * - :ref:`stool_c3`
       - X
       - X
@@ -87,7 +84,31 @@ STool
       - :ref:`stool_dvp`
       - X
       - √
+      - √
 
+
+.. contents::
+    :local:
+    :depth: 1
+
+Usage
+-----------
+
+相关开发逐步上云，但是能够连接云端进行烧录和调试的工具缺乏，不同操作系统对于硬件的支持不同，多系统环境或容器环境下适配差；
+
+如何通过边云协同绑定，实现嵌入式硬件开发的CICD同步，无人干预的自动化测试集成，远程管理服务减少运营成本；
+
+* 绑定远端IP实现本地设备调试开发
+* 通过地址拉取相应固件并针对下载
+* 直接按照编译文件的地址进行烧录
+
+产品简介：
+
+* 至少支持一种无线通信，可用于实现OTA；
+* 能够对外进行下载和调试
+
+Series
+-----------
 
 .. contents::
     :local:
@@ -96,12 +117,11 @@ STool
 .. _stool_s:
 
 S-Series
------------
-
+~~~~~~~~~~~
 .. _stool_s1:
 
 Tool-S1
-~~~~~~~~~~~
+^^^^^^^^^^^
 ``ESP32`` ``Wi-Fi`` ``BLE`` ``ETH`` ``JTAG`` ``DVP``
 
 `ESP32主控 <https://docs.soc.xin/ESP32>`_
@@ -109,7 +129,7 @@ Tool-S1
 .. _stool_s2:
 
 Tool-S2
-~~~~~~~~~~~
+^^^^^^^^^^^
 ``ESP32-S2`` ``Wi-Fi`` ``USB`` ``JTAG`` ``DVP`` ``DAC``
 
 `ESP32-S2主控 <https://docs.soc.xin/ESP32-S2>`_ PD供电和WiFi连接，联网管理
@@ -117,7 +137,7 @@ Tool-S2
 .. _stool_s3:
 
 Tool-S3
-~~~~~~~~~~~
+^^^^^^^^^^^
 ``ESP32-S3`` ``Wi-Fi`` ``BLE`` ``USB`` ``JTAG`` ``DVP``
 
 `ESP32-S3主控 <https://docs.soc.xin/ESP32-S3>`_
@@ -125,12 +145,12 @@ Tool-S3
 .. _stool_c:
 
 C-Series
------------
+~~~~~~~~~~~
 
 .. _stool_c1:
 
 Tool-C1
-~~~~~~~~~~~
+^^^^^^^^^^^
 ``CH579`` ``BLE`` ``ETH`` ``USB`` ``JTAG`` ``SWD``
 
 `CH579主控 <https://docs.soc.xin/CH579>`_
@@ -138,7 +158,7 @@ Tool-C1
 .. _stool_c2:
 
 Tool-C2
-~~~~~~~~~~~
+^^^^^^^^^^^
 ``CH32F208`` ``BLE`` ``ETH`` ``USB`` ``JTAG`` ``SWD``
 
 `CH32F208主控 <https://docs.soc.xin/CH32F208>`_
@@ -146,39 +166,45 @@ Tool-C2
 .. _stool_c3:
 
 Tool-C3
-~~~~~~~~~~~
+^^^^^^^^^^^
 ``CH32F207`` ``ETH`` ``USB`` ``JTAG`` ``SWD`` ``DVP``
 
 `CH32F207主控 <https://docs.soc.xin/CH32F207>`_
 
 
+.. _stool_if:
+
+Interface
+-----------
+
+
 .. _stool_cam:
 
 Camera
------------
+~~~~~~~~~~~
 
 实现实时图传，用于同步显示和图像定位分析
 
 .. _stool_dvp:
 
 DVP
-~~~~~~~~~~~
+^^^^^^^^^^^
 
 .. _stool_uvc:
 
 UVC
+^^^^^^^^^^^
+
+
+.. _stool_loader:
+
+Loader
 ~~~~~~~~~~~
-
-
-.. _stool_debug:
-
-Debug
------------
 
 .. _stool_jtag:
 
 JTAG
-~~~~~~~~~~~
+^^^^^^^^^^^
 
 JTAG(Joint Test Action Group；联合测试工作组)是一种国际标准测试协议（IEEE 1149.1兼容），主要用于芯片内部测试。现在多数的高级器件都支持JTAG协议，如DSP、FPGA器件等。标准的JTAG接口是4线：TMS、TCK、TDI、TDO，分别为模式选择、时钟、数据输入和数据输出线。
 
@@ -201,7 +227,7 @@ JTAG调试接口必须使用VCC、GND电源信号，以及TMS、TCK、TDI、TDO�
 .. _stool_swd:
 
 SWD
-~~~~~~~~~~~
+^^^^^^^^^^^
 
 SWD是ARM公司提出的另一种调试接口，相对于JTAG接口，使用更少的信号。
 
@@ -215,3 +241,8 @@ SWD是ARM公司提出的另一种调试接口，相对于JTAG接口，使用更�
 同样的，虽然RESET是可选的信号；但一般都建议接上，使得仿真器能够在连接器件前对器件进行复位，以获得较理想的初始状态，便于后续连接仿真。
 
 SWD模式比JTAG在高速模式下面更加可靠。在大数据量的情况下面JTAG下载程序会失败，但是SWD发生的几率会小很多。基本使用JTAG仿真模式的情况下是可以直接使用SWD模式的，只要你的仿真器支持。
+
+.. _stool_uart:
+
+UART
+^^^^^^^^^^^
