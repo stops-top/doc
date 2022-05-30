@@ -17,7 +17,7 @@ STOP
 .. toctree::
     :maxdepth: 1
 
-    开发工具 <stool/index>
-    接口标准 <stopi/index>
+    辅助工具 <stool/index>
+    接口定义 <stopi/index>
     生产工具 <stopc/index>
-    技术服务 <stopu/index>
+    技术支持 <stopu/index>

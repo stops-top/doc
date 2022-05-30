@@ -22,8 +22,9 @@ STool
       - BLE
       - ETH
       - USB
+      - ADC
+      - DAC
       - :ref:`stool_cam`
-      - :ref:`stool_avs`
       - :ref:`stool_jtag`
       - :ref:`stool_swd`
     * - :ref:`stool_s1`
@@ -33,6 +34,7 @@ STool
       - X
       - √
       - √
+      - :ref:`stool_dvp`
       - √
       - X
     * - :ref:`stool_s2`
@@ -42,6 +44,7 @@ STool
       - √
       - √
       - √
+      - :ref:`stool_dvp`
       - √
       - X
     * - :ref:`stool_s3`
@@ -51,6 +54,7 @@ STool
       - √
       - √
       - X
+      - :ref:`stool_dvp`
       - √
       - X
     * - :ref:`stool_c1`
@@ -58,7 +62,8 @@ STool
       - √
       - √
       - √
-      - X
+      - √
+      - √
       - X
       - X
       - √
@@ -67,7 +72,8 @@ STool
       - √
       - √
       - √
-      - X
+      - √
+      - √
       - X
       - X
       - √
@@ -78,6 +84,7 @@ STool
       - √
       - √
       - √
+      - :ref:`stool_dvp`
       - X
       - √
 
@@ -93,7 +100,7 @@ S-Series
 
 .. _stool_s1:
 
-STool-S1
+Tool-S1
 ~~~~~~~~~~~
 ``ESP32`` ``Wi-Fi`` ``BLE`` ``ETH`` ``JTAG`` ``DVP``
 
@@ -101,7 +108,7 @@ STool-S1
 
 .. _stool_s2:
 
-STool-S2
+Tool-S2
 ~~~~~~~~~~~
 ``ESP32-S2`` ``Wi-Fi`` ``USB`` ``JTAG`` ``DVP`` ``DAC``
 
@@ -109,7 +116,7 @@ STool-S2
 
 .. _stool_s3:
 
-STool-S3
+Tool-S3
 ~~~~~~~~~~~
 ``ESP32-S3`` ``Wi-Fi`` ``BLE`` ``USB`` ``JTAG`` ``DVP``
 
@@ -122,7 +129,7 @@ C-Series
 
 .. _stool_c1:
 
-STool-C1
+Tool-C1
 ~~~~~~~~~~~
 ``CH579`` ``BLE`` ``ETH`` ``USB`` ``JTAG`` ``SWD``
 
@@ -130,7 +137,7 @@ STool-C1
 
 .. _stool_c2:
 
-STool-C2
+Tool-C2
 ~~~~~~~~~~~
 ``CH32F208`` ``BLE`` ``ETH`` ``USB`` ``JTAG`` ``SWD``
 
@@ -138,7 +145,7 @@ STool-C2
 
 .. _stool_c3:
 
-STool-C3
+Tool-C3
 ~~~~~~~~~~~
 ``CH32F207`` ``ETH`` ``USB`` ``JTAG`` ``SWD`` ``DVP``
 
@@ -150,6 +157,8 @@ STool-C3
 Camera
 -----------
 
+实现实时图传，用于同步显示和图像定位分析
+
 .. _stool_dvp:
 
 DVP
@@ -159,13 +168,6 @@ DVP
 
 UVC
 ~~~~~~~~~~~
-
-.. _stool_avs:
-
-AVS
------------
-``Adjustable voltage supply``
-
 
 
 .. _stool_debug:
