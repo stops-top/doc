@@ -1,101 +1,10 @@
 .. _stool:
 
-STool
+S-Tool
 ===============
 ``Wi-Fi`` ``BLE`` ``USB`` ``OTA`` ``JTAG`` ``SWD``
 
 
-.. list-table::
-    :header-rows:  1
-
-    * - :ref:`stool`
-      - WiFi
-      - BLE
-      - ETH
-      - USB
-      - ADC
-      - DAC
-      - :ref:`stool_cam`
-      - :ref:`stool_jtag`
-      - :ref:`stool_swd`
-      - :ref:`stool_uart`
-    * - :ref:`stool_s1`
-      - √
-      - √
-      - √
-      - X
-      - √
-      - √
-      - :ref:`stool_dvp`
-      - √
-      - X
-      - √
-    * - :ref:`stool_s2`
-      - √
-      - X
-      - X
-      - √
-      - √
-      - √
-      - :ref:`stool_dvp`
-      - √
-      - X
-      - √
-    * - :ref:`stool_s3`
-      - √
-      - √
-      - X
-      - √
-      - √
-      - X
-      - :ref:`stool_dvp`
-      - √
-      - X
-      - √
-    * - :ref:`stool_c1`
-      - X
-      - √
-      - √
-      - √
-      - √
-      - √
-      - X
-      - X
-      - √
-      - √
-    * - :ref:`stool_c2`
-      - X
-      - √
-      - √
-      - √
-      - √
-      - √
-      - X
-      - X
-      - √
-      - √
-    * - :ref:`stool_c3`
-      - X
-      - X
-      - √
-      - √
-      - √
-      - √
-      - :ref:`stool_dvp`
-      - X
-      - √
-      - √
-    * - :ref:`stool_h1`
-      - X
-      - X
-      - √
-      - √
-      - √
-      - √
-      - :ref:`stool_dvp`
-      - √
-      - √
-      - √
 
 
 .. contents::
@@ -121,129 +30,68 @@ Usage
 Series
 -----------
 
-.. contents::
-    :local:
-    :depth: 1
 
-.. _stool_s:
+.. list-table::
+    :header-rows:  1
 
-S-Series
-~~~~~~~~~~~
+    * - :ref:`stool`
+      - WiFi
+      - BLE
+      - ETH
+      - USB
+      - ADC
+      - DAC
+      - Camera
+      - :ref:`stool_jtag`
+      - :ref:`stool_swd`
+      - OTA
+    * - :ref:`s1`
+      - √
+      - √
+      - √
+      - X
+      - √
+      - √
+      - √
+      - √
+      - X
+      - √
+    * - :ref:`s2`
+      - √
+      - X
+      - X
+      - √
+      - √
+      - √
+      - √
+      - √
+      - X
+      - √
+    * - :ref:`s3`
+      - √
+      - √
+      - X
+      - √
+      - √
+      - X
+      - √
+      - √
+      - X
+      - √
 
-.. contents::
-    :local:
-    :depth: 1
+.. toctree::
+    :maxdepth: 1
 
-.. _stool_s1:
-
-S1
-^^^^^^^^^^^
-``ESP32`` ``Wi-Fi`` ``BLE`` ``ETH`` ``JTAG`` ``DVP``
-
-`ESP32主控 <https://docs.soc.xin/ESP32>`_
-
-.. _stool_s2:
-
-S2
-^^^^^^^^^^^
-``ESP32-S2`` ``Wi-Fi`` ``USB`` ``JTAG`` ``DVP`` ``DAC``
-
-`ESP32-S2主控 <https://docs.soc.xin/ESP32-S2>`_ PD供电和WiFi连接，联网管理
-
-.. _stool_s3:
-
-S3
-^^^^^^^^^^^
-``ESP32-S3`` ``Wi-Fi`` ``BLE`` ``USB`` ``JTAG`` ``DVP``
-
-`ESP32-S3主控 <https://docs.soc.xin/ESP32-S3>`_
-
-.. _stool_c:
-
-C-Series
-~~~~~~~~~~~
-
-.. contents::
-    :local:
-    :depth: 1
-
-.. _stool_c1:
-
-C1
-^^^^^^^^^^^
-``CH579`` ``BLE`` ``ETH`` ``USB`` ``JTAG`` ``SWD``
-
-`CH579主控 <https://docs.soc.xin/CH579>`_
-
-.. _stool_c2:
-
-C2
-^^^^^^^^^^^
-``CH32F208`` ``BLE`` ``ETH`` ``USB`` ``JTAG`` ``SWD``
-
-`CH32F208主控 <https://docs.soc.xin/CH32F208>`_
-
-.. _stool_c3:
-
-C3
-^^^^^^^^^^^
-``CH32F207`` ``ETH`` ``USB`` ``JTAG`` ``SWD`` ``DVP``
-
-`CH32F207主控 <https://docs.soc.xin/CH32F207>`_
-
-.. _stool_h:
-
-H-Series
-~~~~~~~~~~~
-
-.. contents::
-    :local:
-    :depth: 1
-
-.. _stool_h1:
-
-H1
-^^^^^^^^^^^
-``STM32H7``
-
-`STM32H7主控 <https://docs.soc.xin/STM32H750>`_
+    S1 <s1>
+    S2 <s2>
+    S3 <s3>
 
 
-.. _stool_if:
 
-Interface
------------
-
-.. contents::
-    :local:
-    :depth: 1
-
-.. _stool_cam:
-
-Camera
-~~~~~~~~~~~
-
-实现实时图传，用于同步显示和图像定位分析
-
-.. contents::
-    :local:
-    :depth: 1
-
-.. _stool_dvp:
-
-DVP
-^^^^^^^^^^^
-
-.. _stool_uvc:
-
-UVC
-^^^^^^^^^^^
-
-
-.. _stool_loader:
+.. _loader:
 
 Loader
-~~~~~~~~~~~
+-----------
 
 .. contents::
     :local:
@@ -252,7 +100,7 @@ Loader
 .. _stool_swd:
 
 SWD
-^^^^^^^^^^^
+~~~~~~~~~~~
 
 SWD是ARM公司提出的另一种调试接口，相对于JTAG接口，使用更少的信号。
 
@@ -270,7 +118,7 @@ SWD模式比JTAG在高速模式下面更加可靠。在大数据量的情况下�
 .. _stool_jtag:
 
 JTAG
-^^^^^^^^^^^
+~~~~~~~~~~~
 
 JTAG(Joint Test Action Group；联合测试工作组)是一种国际标准测试协议（IEEE 1149.1兼容），主要用于芯片内部测试。现在多数的高级器件都支持JTAG协议，如DSP、FPGA器件等。标准的JTAG接口是4线：TMS、TCK、TDI、TDO，分别为模式选择、时钟、数据输入和数据输出线。
 
@@ -291,7 +139,3 @@ JTAG调试接口必须使用VCC、GND电源信号，以及TMS、TCK、TDI、TDO�
 
 
 
-.. _stool_uart:
-
-UART
-^^^^^^^^^^^
