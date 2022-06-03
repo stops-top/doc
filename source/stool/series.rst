@@ -28,7 +28,7 @@ Series
       - √
       - √
       - √
-      - :ref:`stool_jtag`
+      - JTAG
     * - :ref:`s3`
       - ETH
       - X
@@ -36,19 +36,10 @@ Series
       - √
       - √
       - √
-      - :ref:`stool_swd`
+      - SWD
 
 
-.. _debug:
 
-debug
------------
-
-.. contents::
-    :local:
-    :depth: 1
-
-.. _stool_swd:
 
 SWD
 ~~~~~~~~~~~
@@ -66,7 +57,6 @@ SWD是ARM公司提出的另一种调试接口，相对于JTAG接口，使用更�
 
 SWD模式比JTAG在高速模式下面更加可靠。在大数据量的情况下面JTAG下载程序会失败，但是SWD发生的几率会小很多。基本使用JTAG仿真模式的情况下是可以直接使用SWD模式的，只要你的仿真器支持。
 
-.. _stool_jtag:
 
 JTAG
 ~~~~~~~~~~~
