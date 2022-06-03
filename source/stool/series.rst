@@ -5,7 +5,7 @@ Series
 .. list-table::
     :header-rows:  1
 
-    * - :ref:`stool`
+    * - Series
       - 网络连接
       - 自组网
       - USB
