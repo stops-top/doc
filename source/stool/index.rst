@@ -22,75 +22,57 @@ Usage
 * 通过地址拉取相应固件并针对下载
 * 直接按照编译文件的地址进行烧录
 
-产品简介：
-
-* 至少支持一种无线通信，可用于实现OTA；
-* 能够对外进行下载和调试
 
 Series
 -----------
-
 
 .. list-table::
     :header-rows:  1
 
     * - :ref:`stool`
-      - WiFi
-      - BLE
-      - ETH
-      - USB
-      - ADC
-      - DAC
-      - Camera
-      - :ref:`stool_jtag`
-      - :ref:`stool_swd`
-      - OTA
+      - 网络连接
+      - 组网管理
+      - USB连接
+      - 测量精度
+      - 供电能力
+      - 显微相机
+      - 调试端口
     * - :ref:`s1`
       - √
-      - √
-      - √
-      - X
-      - √
+      - BLE
+      -
       - √
       - √
       - √
-      - X
       - √
     * - :ref:`s2`
-      - √
+      - WiFi
       - X
-      - X
+      - FS OTG
       - √
       - √
       - √
-      - √
-      - √
-      - X
-      - √
+      - :ref:`stool_jtag`
     * - :ref:`s3`
-      - √
-      - √
+      - ETH
       - X
+      - HS OTG
       - √
       - √
-      - X
       - √
-      - √
-      - X
-      - √
+      - :ref:`stool_swd`
 
 .. toctree::
     :maxdepth: 1
 
-    S1 <s1>
-    S2 <s2>
-    S3 <s3>
+    网络管理 S1 <s1>
+    手持测量 S2 <s2>
+    高速调试 S3 <s3>
 
 
+.. _debug:
 
-.. _loader:
-
-Loader
+Debug
 -----------
 
 .. contents::

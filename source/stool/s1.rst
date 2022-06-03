@@ -2,17 +2,18 @@
 
 S1
 ===============
-``ESP32`` ``Wi-Fi`` ``BLE`` ``ETH`` ``JTAG`` ``DVP``
-
-`ESP32主控 <https://docs.soc.xin/ESP32>`_
 
 
 .. contents::
     :local:
     :depth: 1
 
-Usage
+Wi-Fi版
 -----------
+``ESP32`` ``Wi-Fi`` ``BLE`` ``ETH`` ``JTAG`` ``DVP``
+
+`ESP32主控 <https://docs.soc.xin/ESP32>`_
+
 
 相关开发逐步上云，但是能够连接云端进行烧录和调试的工具缺乏，不同操作系统对于硬件的支持不同，多系统环境或容器环境下适配差；
 
@@ -28,3 +29,8 @@ Usage
 * 能够对外进行下载和调试
 
 
+以太网版
+-----------
+``CH579`` ``BLE`` ``ETH`` ``USB`` ``JTAG`` ``SWD``
+
+`CH579主控 <https://docs.soc.xin/CH579>`_
