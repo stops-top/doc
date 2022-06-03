@@ -17,6 +17,10 @@
     :local:
     :depth: 1
 
+
+.. include:: stopi.rst
+
+
 PCIe接口
 -----------
 

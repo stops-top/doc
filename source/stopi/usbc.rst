@@ -10,6 +10,7 @@
     :local:
     :depth: 1
 
+.. include:: stopi.rst
 
 应用场景
 -----------

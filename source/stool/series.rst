@@ -1,15 +1,3 @@
-.. _stool:
-
-S-Tool
-===============
-``Wi-Fi`` ``BLE`` ``USB`` ``OTA`` ``JTAG`` ``SWD``
-
-
-
-
-.. contents::
-    :local:
-    :depth: 1
 
 Series
 -----------
@@ -50,12 +38,6 @@ Series
       - √
       - :ref:`stool_swd`
 
-.. toctree::
-    :maxdepth: 1
-
-    网络终端 S1 <s1>
-    手持仪器 S2 <s2>
-    诊断设备 S3 <s3>
 
 .. _debug:
 

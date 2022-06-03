@@ -8,6 +8,9 @@ S3
 `CH32F207主控 <https://docs.soc.xin/CH32F207>`_
 
 
+.. contents::
+    :local:
+    :depth: 1
 
 
-
+.. include:: series.rst

@@ -16,6 +16,8 @@
     :local:
     :depth: 1
 
+.. include:: stopi.rst
+
 接口标准
 -----------
 
