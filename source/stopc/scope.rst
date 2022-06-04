@@ -1,20 +1,21 @@
-.. _joint:
+.. _scope:
 
-Joint
+Scope
 ===============
-``tiny``
+``Wi-Fi`` ``USB`` ``JTAG`` ``DVP`` ``DAC``
+
+`ESP32-S2主控 <https://docs.soc.xin/ESP32-S2>`_ PD供电和WiFi连接，联网管理
 
 .. contents::
     :local:
     :depth: 1
 
-.. _s1a:
+.. _torch:
 
-S1-A
+torch
 -----------
-``ESP32`` ``Wi-Fi`` ``BLE`` ``ETH`` ``JTAG`` ``DVP``
 
-`ESP32主控 <https://docs.soc.xin/ESP32>`_
+实现实时图传，用于同步显示和图像定位分析
 
 
 相关开发逐步上云，但是能够连接云端进行烧录和调试的工具缺乏，不同操作系统对于硬件的支持不同，多系统环境或容器环境下适配差；
@@ -30,13 +31,6 @@ S1-A
 * 至少支持一种无线通信，可用于实现OTA；
 * 能够对外进行下载和调试
 
-.. _s1b:
-
-S1-B
------------
-``CH579`` ``BLE`` ``ETH`` ``USB`` ``JTAG`` ``SWD``
-
-`CH579主控 <https://docs.soc.xin/CH579>`_
 
 
 

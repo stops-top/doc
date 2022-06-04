@@ -1,51 +1,55 @@
-.. _stool:
+.. _joint:
 
-辅助工具
+Joint
+===============
+``tiny``
+
+相关开发逐步上云，但是能够连接云端进行烧录和调试的工具缺乏，不同操作系统对于硬件的支持不同，多系统环境或容器环境下适配差；
+
+如何通过边云协同绑定，实现嵌入式硬件开发的CICD同步，无人干预的自动化测试集成，远程管理服务减少运营成本；
+
+* 绑定远端IP实现本地设备调试开发
+* 通过地址拉取相应固件并针对下载
+* 直接按照编译文件的地址进行烧录
+
+产品简介：
+
+* 至少支持一种无线通信，可用于实现OTA；
+* 能够对外进行下载和调试
+
+.. contents::
+    :local:
+    :depth: 1
+
+
+.. _joint_cross:
+
+Cross Joint
+-------------
+``四通接头`` ``Wi-Fi`` ``ETH`` ``BLE`` ``USB``
+
+
+.. _joint_tee:
+
+Tee Joint
 -----------
+``三通接头`` ``Wi-Fi/ETH`` ``BLE`` ``USB``
 
-.. list-table::
-    :header-rows:  1
+`CH579主控 <https://docs.soc.xin/CH579>`_
 
-    * -
-      - 网络
-      - 组网
-      - USB
-      - 测量精度
-      - 输出
-      - 相机
-      - 端口
-    * - :ref:`joint`
-      - WiFi/ETH
-      - √
-      - X
-      - √
-      - √
-      - √
-      - √
-    * - :ref:`scope`
-      - WiFi
-      - X
-      - FS OTG
-      - √
-      - √
-      - √
-      - JTAG
-    * - :ref:`h7plus`
-      - ETH
-      - X
-      - HS OTG
-      - √
-      - √
-      - √
-      - SWD
+`ESP32主控 <https://docs.soc.xin/ESP32>`_
+
+.. _joint_two:
+
+Two Joint
+-----------
+``双向接头`` ``USB`` ``BLE``
+
+`CH573主控 <https://docs.soc.xin/CH573>`_
 
 
-.. toctree::
-    :maxdepth: 1
-
-    功能验证 <h7>
-    通信接头 <joint>
-    观测节点 <scope>
+Debug
+-----------
 
 SWD
 ~~~~~~~~~~~

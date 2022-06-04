@@ -30,12 +30,14 @@ STOP
 
     工具电脑 <stopc/computer>
     桌上工厂 <stopc/cube>
-    辅助工具 <stool/index>
+    辅助工具 <stopc/stool>
 
 
 .. toctree::
     :caption: 技术服务
     :maxdepth: 1
 
-    方案服务 <stopu/index>
     Turnkey <stopu/turnkey>
+    现场服务 <stopu/engineer>
+    数字助理 <stopu/assistant>
+
