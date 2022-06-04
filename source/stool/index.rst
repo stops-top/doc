@@ -14,23 +14,15 @@
       - 输出
       - 相机
       - 端口
-    * - :ref:`s1a`
-      - WiFi
+    * - :ref:`joint`
+      - WiFi/ETH
       - √
       - X
       - √
       - √
       - √
       - √
-    * - :ref:`s1b`
-      - ETH
-      - √
-      - X
-      - √
-      - √
-      - √
-      - √
-    * - :ref:`needle`
+    * - :ref:`scope`
       - WiFi
       - X
       - FS OTG
