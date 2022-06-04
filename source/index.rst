@@ -16,14 +16,6 @@ STOP
 
 
 .. toctree::
-    :caption: 工具系列
-    :maxdepth: 1
-
-    网络终端 S1 <stool/s1>
-    手持仪器 S2 <stool/s2>
-    诊断设备 S3 <stool/s3>
-
-.. toctree::
     :caption: 接口标准
     :maxdepth: 1
 
@@ -37,6 +29,8 @@ STOP
     :maxdepth: 1
 
     工具电脑 <stopc/index>
+    辅助工具 <stool/index>
+    桌上工厂 <cube/index>
 
 .. toctree::
     :caption: 技术服务

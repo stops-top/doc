@@ -1,5 +1,6 @@
+.. _stool:
 
-Series
+辅助工具
 -----------
 
 .. list-table::
@@ -39,7 +40,12 @@ Series
       - SWD
 
 
+.. toctree::
+    :maxdepth: 1
 
+    网络终端 S1 <s1>
+    手持仪器 S2 <s2>
+    诊断设备 S3 <s3>
 
 SWD
 ~~~~~~~~~~~
