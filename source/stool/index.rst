@@ -38,7 +38,7 @@
       - √
       - √
       - JTAG
-    * - :ref:`hub`
+    * - :ref:`h7plus`
       - ETH
       - X
       - HS OTG
@@ -51,9 +51,9 @@
 .. toctree::
     :maxdepth: 1
 
-    功能验证 <hub>
-    网络管理 <node>
-    测量节点 <needle>
+    功能验证 <h7>
+    通信接头 <joint>
+    观测节点 <scope>
 
 SWD
 ~~~~~~~~~~~

@@ -1,7 +1,7 @@
 
 .. _qhub:
 
-测试容器
+扩展容器
 ===============
 ``2.54mm`` ``arduino`` ``raspberry pi`` ``stm32 nucleo``
 

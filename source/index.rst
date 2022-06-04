@@ -22,19 +22,20 @@ STOP
     资源管理 PCI-E <stopi/pcie>
     嵌入模块 NGFF <stopi/ngff>
     线缆扩展 USBC <stopi/usbc>
-    测试容器 QHub <stopi/qhub>
+    扩展容器 QHub <stopi/qhub>
 
 .. toctree::
     :caption: 极客装备
     :maxdepth: 1
 
-    工具电脑 <stopc/index>
+    工具电脑 <stopc/computer>
+    桌上工厂 <stopc/cube>
     辅助工具 <stool/index>
-    桌上工厂 <cube/index>
+
 
 .. toctree::
     :caption: 技术服务
     :maxdepth: 1
 
     方案服务 <stopu/index>
-
+    Turnkey <stopu/turnkey>

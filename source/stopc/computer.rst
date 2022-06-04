@@ -1,7 +1,7 @@
-.. _stopc:
+.. _computer:
 
-工具电脑
-============
+STOP Computer
+================
 
 .. contents::
     :local:
