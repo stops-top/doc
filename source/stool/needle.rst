@@ -1,8 +1,9 @@
-.. _s2:
+.. _needle:
 
-S2
+needle
 ===============
-``ESP32-S3`` ``ESP32-S2`` ``Wi-Fi`` ``USB`` ``JTAG`` ``DVP`` ``DAC``
+
+``Wi-Fi`` ``USB`` ``JTAG`` ``DVP`` ``DAC``
 
 `ESP32-S2主控 <https://docs.soc.xin/ESP32-S2>`_ PD供电和WiFi连接，联网管理
 
@@ -14,8 +15,6 @@ S2
     :local:
     :depth: 1
 
-
-.. include:: series.rst
 
 Usage
 -----------
@@ -34,8 +33,6 @@ Usage
 * 能够对外进行下载和调试
 
 
-.. _s2_if:
-
 Interface
 -----------
 
@@ -43,7 +40,7 @@ Interface
     :local:
     :depth: 1
 
-.. _s2_cam:
+
 
 Camera
 ~~~~~~~~~~~

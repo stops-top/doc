@@ -6,23 +6,31 @@
 .. list-table::
     :header-rows:  1
 
-    * - Series
-      - 网络连接
-      - 自组网
+    * -
+      - 网络
+      - 组网
       - USB
       - 测量精度
       - 输出
       - 相机
       - 端口
-    * - :ref:`s1`
-      - WiFi/ETH
+    * - :ref:`s1a`
+      - WiFi
       - √
       - X
       - √
       - √
       - √
       - √
-    * - :ref:`s2`
+    * - :ref:`s1b`
+      - ETH
+      - √
+      - X
+      - √
+      - √
+      - √
+      - √
+    * - :ref:`needle`
       - WiFi
       - X
       - FS OTG
@@ -30,7 +38,7 @@
       - √
       - √
       - JTAG
-    * - :ref:`s3`
+    * - :ref:`hub`
       - ETH
       - X
       - HS OTG
@@ -43,9 +51,9 @@
 .. toctree::
     :maxdepth: 1
 
-    网络终端 S1 <s1>
-    手持仪器 S2 <s2>
-    诊断设备 S3 <s3>
+    功能验证 <hub>
+    网络管理 <node>
+    测量节点 <needle>
 
 SWD
 ~~~~~~~~~~~

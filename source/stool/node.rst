@@ -1,6 +1,6 @@
-.. _s1:
+.. _node:
 
-S1
+node
 ===============
 
 
@@ -8,10 +8,9 @@ S1
     :local:
     :depth: 1
 
-.. include:: series.rst
+.. _s1a:
 
-
-Wi-Fi版
+S1-A
 -----------
 ``ESP32`` ``Wi-Fi`` ``BLE`` ``ETH`` ``JTAG`` ``DVP``
 
@@ -31,8 +30,9 @@ Wi-Fi版
 * 至少支持一种无线通信，可用于实现OTA；
 * 能够对外进行下载和调试
 
+.. _s1b:
 
-以太网版
+S1-B
 -----------
 ``CH579`` ``BLE`` ``ETH`` ``USB`` ``JTAG`` ``SWD``
 
