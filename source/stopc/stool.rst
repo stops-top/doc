@@ -6,7 +6,7 @@ STOOL
 .. list-table::
     :header-rows:  1
 
-    * - Stool
+    * - tools
       - 网络
       - 组网
       - USB

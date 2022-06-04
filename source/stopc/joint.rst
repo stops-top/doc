@@ -17,6 +17,39 @@ Joint
 * 至少支持一种无线通信，可用于实现OTA；
 * 能够对外进行下载和调试
 
+
+.. list-table::
+    :header-rows:  1
+
+    * - :ref:`joint`
+      - UART
+      - SPI
+      - CAN
+      - USB
+      - BLE
+      - NET
+    * - :ref:`joint_cross`
+      - √
+      - √
+      - √
+      - √
+      - √
+      - √
+    * - :ref:`joint_tee`
+      - √
+      - √
+      - X
+      - √
+      - √
+      - √
+    * - :ref:`joint_way`
+      - √
+      - √
+      - X
+      - √
+      - √
+      - X
+
 .. contents::
     :local:
     :depth: 1
@@ -24,29 +57,36 @@ Joint
 
 .. _joint_cross:
 
-Cross Joint
+四通
 -------------
-``四通接头`` ``Wi-Fi`` ``ETH`` ``BLE`` ``USB``
+``四通接头`` ``NET + BLE + USB + CAN``
 
+
+`ESP32-S3主控 <https://docs.soc.xin/ESP32-S3>`_
+
+`CH32F208主控 <https://docs.soc.xin/CH32F208>`_
 
 .. _joint_tee:
 
-Tee Joint
+三通
 -----------
-``三通接头`` ``Wi-Fi/ETH`` ``BLE`` ``USB``
+``三通接头`` ``NET + BLE/USB + CAN``
 
 `CH579主控 <https://docs.soc.xin/CH579>`_
 
-`ESP32主控 <https://docs.soc.xin/ESP32>`_
+`CH32F207主控 <https://docs.soc.xin/CH32F207>`_
 
-.. _joint_two:
 
-Two Joint
+.. _joint_way:
+
+双通
 -----------
-``双向接头`` ``USB`` ``BLE``
+``双向接头`` ``BLE + USB``
 
 `CH573主控 <https://docs.soc.xin/CH573>`_
 
+
+.. _joint_debug:
 
 Debug
 -----------
