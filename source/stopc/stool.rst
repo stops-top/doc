@@ -30,6 +30,14 @@ STOOL
       - 电池
       - √
       - √
+    * - :ref:`h7tool`
+      - ETH
+      - X
+      - HS OTG
+      - √
+      - 外接
+      - √
+      - √
     * - :ref:`h7plus`
       - ETH
       - X
