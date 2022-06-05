@@ -29,7 +29,7 @@ STOP
     :maxdepth: 1
 
     工具电脑 <stopc/computer>
-    桌上工厂 <stopc/cube>
+    桌面工厂 <stopc/cube>
     辅助工具 <stopc/stool>
 
 
