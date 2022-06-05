@@ -14,6 +14,7 @@ STOP
 .. image:: _static/images/all.png
     :target: https://www.stops.top
 
+智能硬件开发的关键：硬件方案、软件架构和开发工具；软硬件方案解耦和工具通用是项目持续迭代的关键。
 
 .. toctree::
     :caption: 接口标准
@@ -34,10 +35,10 @@ STOP
 
 
 .. toctree::
-    :caption: 技术转化
+    :caption: 成果转化
     :maxdepth: 1
 
     Turnkey <stopu/turnkey>
-    现场服务 <stopu/engineer>
-    数字助理 <stopu/assistant>
+    现场管理 <stopu/engineer>
+    数字助手 <stopu/assistant>
 
