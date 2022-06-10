@@ -1,10 +1,13 @@
 
 .. _usbc:
 
-线缆扩展
+USBC
 ===============
 
-`GitHub <https://github.com/STOP-Pi/USBC>`_ : ``USB-C`` ``USB-PD`` ``SWD`` ``UART``
+.. image:: https://github.com/STOP-Pi/USBC/workflows/kicad/badge.svg
+    :target: https://github.com/STOP-Pi/USBC/actions
+
+``USB-C`` ``USB-PD`` ``SWD`` ``UART``
 
 .. contents::
     :local:

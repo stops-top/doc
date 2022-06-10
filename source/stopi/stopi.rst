@@ -3,7 +3,9 @@
 接口标准
 -----------
 
-`STOP Interface <https://www.STOPi.cn>`_ 标准化的接口定义，用于快速达成共识，构建通用、可替换、可升级的嵌入式单元模块，提升生态的标准化程度，实现维护便捷，快速更换。
+`STOPi(STOP interface) <https://www.github.com/STOP-Pi>`_ 标准化接口定义，用于统一接口的功能形态，快速达成共识
+
+主要的标准定义包括硬件接口的管脚分布，参考尺寸限制
 
 .. list-table::
     :header-rows:  1
@@ -40,13 +42,3 @@
       -
       -
       -
-    * - :ref:`qhub`
-      -
-      -
-      -
-      -
-      -
-      -
-      -
-
-

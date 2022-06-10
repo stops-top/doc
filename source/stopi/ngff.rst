@@ -1,15 +1,11 @@
 
 .. _ngff:
 
-嵌入模块
+NGFF
 ===============
 
 .. image:: https://github.com/STOP-Pi/NGFF/workflows/kicad/badge.svg
     :target: https://github.com/STOP-Pi/NGFF/actions
-
-
-.. image:: ./images/ngff.png
-    :target: https://baike.baidu.com/item/m.2%E6%8E%A5%E5%8F%A3/18010680?fromtitle=NGFF&fromid=1576143&fr=aladdin
 
 
 .. contents::
@@ -20,6 +16,9 @@
 
 接口标准
 -----------
+
+.. image:: ./images/ngff.png
+    :target: https://baike.baidu.com/item/m.2%E6%8E%A5%E5%8F%A3/18010680?fromtitle=NGFF&fromid=1576143&fr=aladdin
 
 M.2接口是一种新的主机接口方案，可以兼容多种通信协议，如sata、PCIe、USB、HSIC、UART、SMBus等。
 
