@@ -14,10 +14,11 @@ STOP
 .. image:: _static/images/all.png
     :target: https://www.stops.top
 
-智能硬件开发的关键：硬件方案、软件架构和开发工具；软硬件方案解耦和工具通用是项目持续迭代的关键。
+.. note::
+    智能硬件开发的关键：硬件方案、软件架构和开发工具；软硬件方案解耦和工具通用是项目持续迭代的关键。
 
 .. toctree::
-    :caption: 接口标准
+    :caption: 标准分工 STOPi
     :maxdepth: 1
 
     资源管理 PCI-E <stopi/pcie>
@@ -26,7 +27,7 @@ STOP
     扩展容器 QHub <stopi/qhub>
 
 .. toctree::
-    :caption: 极客装备
+    :caption: 极客装备 STOPc
     :maxdepth: 1
 
     工具电脑 <stopc/computer>
@@ -35,10 +36,13 @@ STOP
 
 
 .. toctree::
-    :caption: 成果转化
+    :caption: 成果转化 STOPu
     :maxdepth: 1
 
-    Turnkey <stopu/turnkey>
-    现场管理 <stopu/engineer>
-    数字助手 <stopu/assistant>
+    现场支持 <stopu/fae>
+    成果管理 <stopu/assets>
+
+工作多年，感悟良多，对于企业而言，特别是逐步进入守成阶段的企业，跨团队资源协同的损耗巨大，突破常规的驱动要求高，每个人都在做着自己分内的事情，因为操心太多也无济于事。
+
+螺丝钉不应该有自己的思考，限于每个人的知识背景和视野不同，各司其职是被检验的有效率的协同方式，但也由此造成"顿感"，各种问题和风险的传导不够及时，无辜的个体成为无数失败案例中最后的受益者。
 
