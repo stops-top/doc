@@ -2,41 +2,63 @@
 
 Scope
 ===============
-``Wi-Fi`` ``USB`` ``JTAG`` ``Camera`` ``USB-PD``
+``等效耳机`` ``万能工具``
 
 
 .. contents::
     :local:
     :depth: 1
 
-.. _torch:
+.. _h7tool:
 
-Torch
+H7-Tool
 -----------
-``Wi-Fi`` ``JTAG`` ``USB Camera``
+``STM32H750``
+
+`H7-TOOL开发工具 <https://www.armbbs.cn/forum.php?mod=forumdisplay&fid=61&page=1>`_
+
+* 多功能开发调试工具，支持固件下载和量产烧录。
+* 万用表、示波器、串口线、逻辑分析仪全集成，lua脚本编程。
+* 体积和J-Link一样大，方便携带。
+
+.. _h7plus:
+
+H7-Plus
+-----------
+
+:ref:`h7plus` 是 :ref:`qhub` 标准的一种实现，可以在板进行软硬件测试和集成开发
 
 
+.. list-table::
+    :header-rows:  1
 
-`ESP32-S2主控 <https://docs.soc.xin/ESP32-S2>`_ 供电管理和WiFi连接，联网管理，实时图传，用于同步显示和图像定位分析
+    * - `SoC <https://docs.soc.xin>`_
+      - ETH
+      - USB
+      - ADC
+      - DAC
+      - OPA
+      - CMP
+    * - `CH32F207 <https://docs.soc.xin/CH32F207>`_
+      - 10M(PHY)+1G(MAC)
+      - HS OTG
+      - 2x12b
+      - √
+      -
+      -
+    * - `CH32V307 <https://docs.soc.xin/CH32V307>`_
+      - 10M(PHY)+1G(MAC)
+      - HS OTG
+      - 2x12b
+      - √
+      -
+      -
+    * - `HPM6750 <https://docs.soc.xin/HPM6750>`_
+      - 2x 1G(MAC)
+      - 2x HS OTG
+      - 3x12bx5M
+      -
+      -
+      - 4
 
 
-相关开发逐步上云，但是能够连接云端进行烧录和调试的工具缺乏，不同操作系统对于硬件的支持不同，多系统环境或容器环境下适配差；
-
-如何通过边云协同绑定，实现嵌入式硬件开发的CICD同步，无人干预的自动化测试集成，远程管理服务减少运营成本；
-
-* 绑定远端IP实现本地设备调试开发
-* 通过地址拉取相应固件并针对下载
-* 直接按照编译文件的地址进行烧录
-
-
-
-`ESP32-S3主控 <https://docs.soc.xin/ESP32-S3>`_
-
-* 远程视频监控和信号采集
-* 固件下载和调试
-
-通过视频方案，可以获得实时的监控，同时电平信号可以坐标呈现
-
-双核心的功能在于信息采集和传输不间断
-
-可以作为USB外设使用，通过USB接入电脑

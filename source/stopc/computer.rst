@@ -1,6 +1,6 @@
 .. _computer:
 
-STOPComputer
+Computer
 ================
 
 .. contents::

@@ -6,9 +6,9 @@ STOOL
 .. list-table::
     :header-rows:  1
 
-    * - tools
+    * -
       - 网络
-      - 组网
+      - 接口
       - USB
       - 测量
       - 供电
@@ -30,15 +30,7 @@ STOOL
       - 电池
       - √
       - √
-    * - :ref:`h7tool`
-      - ETH
-      - X
-      - HS OTG
-      - √
-      - 外接
-      - √
-      - √
-    * - :ref:`h7plus`
+    * - :ref:`scope`
       - ETH
       - X
       - HS OTG
@@ -51,7 +43,7 @@ STOOL
 .. toctree::
     :maxdepth: 1
 
-    验证测试 <h7>
-    通信扩展 <joint>
-    现场测量 <scope>
-
+    转换接头 <joint>
+    开发工具 <scope>
+    现场诊断 <torch>
+    电脑装备 <computer>
