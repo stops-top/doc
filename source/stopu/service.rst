@@ -7,11 +7,6 @@
 
 技术服务和外卖快递一样，都是时间资源的置换。如果技术足够通用，标准足够明晰，协同足够效率，技术支持为什么不能外包出去？
 
-.. toctree::
-    :maxdepth: 1
-
-    Double <double>
-
 
 .. contents::
     :local:

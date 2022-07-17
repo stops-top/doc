@@ -3,7 +3,10 @@
 
 PCI-E
 ===============
-``PCIe`` ``储存`` ``高速外设`` ``主板扩展``
+``PCIe`` ``硬件规格`` ``高速外设`` ``主板扩展``
+
+.. image:: https://github.com/stops-top/PCIE/workflows/ci/badge.svg
+    :target: https://github.com/stops-top/PCIE/actions
 
 基于 `PCIe接口 <https://github.com/stops-top/PCIE>`_ 的边缘计算型扩展板卡，用于连接终端设备进行实时处理，或者为主机设备提供环境管理支持
 
@@ -17,7 +20,6 @@ PCI-E
     :depth: 1
 
 
-.. include:: stopi.rst
 
 
 PCIe接口
@@ -67,3 +69,6 @@ PCIe接口
 ~~~~~~~~~~~
 
 通过统一的硬件绑定通道，实现内部多系统复用，减少驱动适配和操作
+
+
+.. include:: stopi.rst

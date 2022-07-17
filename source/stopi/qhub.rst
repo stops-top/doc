@@ -3,11 +3,12 @@
 
 QHub
 ===============
-``Arduino Mega 2560`` ``raspberry pi`` ``stm32 nucleo``
+``Arduino Mega 2560`` ``Raspberry pi`` ``stm32 nucleo``
 
 .. image:: https://github.com/stops-top/USBC/workflows/kicad/badge.svg
     :target: https://github.com/stops-top/QHUB/actions
 
+通过2.54mm插件连接扩展，作为底座承接 :ref:`ngff` 板卡
 
 
 .. contents::
@@ -18,12 +19,29 @@ QHub
 -----------
 ``2.54mm``
 
-双向排列插件，作为底座承接 :ref:`ngff` 板卡
+.. image:: ./images/qhub.png
 
-应用场景
+
+功能定义
 -----------
 
-多种2.54mm端子定义，可以扩展大量现有模块
+.. contents::
+    :local:
+    :depth: 1
+
+烧录调试
+~~~~~~~~~~~
+
+数字电源
+~~~~~~~~~~~
+``输出可调`` ``功耗测量``
+
+
+逻辑分析
+~~~~~~~~~~~
+``触发状态``
+
+
 
 
 .. include:: stopi.rst
