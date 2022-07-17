@@ -4,8 +4,8 @@
 USBC
 ===============
 
-.. image:: https://github.com/STOP-Pi/USBC/workflows/kicad/badge.svg
-    :target: https://github.com/STOP-Pi/USBC/actions
+.. image:: https://github.com/stops-top/USBC/workflows/kicad/badge.svg
+    :target: https://github.com/stops-top/USBC/actions
 
 ``USB-C`` ``USB-PD`` ``SWD`` ``UART``
 

@@ -11,8 +11,6 @@ STOPs
 * 提高使用体验，提高功能集成度，预设场景模块化
 * 提高项目价值，项目经验工具化，价值需求软链接
 
-.. image:: _static/images/all.png
-    :target: https://www.stops.top
 
 .. note::
     智能硬件开发的关键：硬件方案、软件架构和开发工具；软硬件方案解耦和工具通用是项目持续迭代的关键。
@@ -39,3 +37,7 @@ STOPs
 
     现场支持 <stopu/fae>
     成果管理 <stopu/assets>
+
+
+.. image:: _static/images/all.png
+    :target: https://www.stops.top
