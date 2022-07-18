@@ -13,7 +13,6 @@ USBC
     :local:
     :depth: 1
 
-.. include:: stopi.rst
 
 应用场景
 -----------
@@ -121,3 +120,6 @@ RS485通信
 ~~~~~~~~~~~
 
 用于扩展原有设备的RS485通信能力
+
+
+.. include:: stopi.rst
