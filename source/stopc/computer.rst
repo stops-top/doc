@@ -1,8 +1,8 @@
 .. _computer:
 
-Computer
+制式电脑
 ================
-``PCIe扩展`` ``数据工厂``
+``PCI-E扩展`` ``有人终端``
 
 .. contents::
     :local:

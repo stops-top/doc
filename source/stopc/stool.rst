@@ -49,4 +49,3 @@ STOOL
     转换接头 <joint>
     开发工具 <scope>
     现场诊断 <torch>
-    电脑装备 <computer>

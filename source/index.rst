@@ -20,6 +20,7 @@ STOPs
     :caption: 极客装备 STOPc
     :maxdepth: 1
 
+    制式电脑 <stopc/computer>
     辅助工具 <stopc/stool>
     桌上工厂 <stopc/mills>
 

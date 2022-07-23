@@ -5,10 +5,10 @@ PCI-E
 ===============
 ``PCIe`` ``硬件规格`` ``高速外设`` ``主板扩展``
 
-.. image:: https://github.com/stops-top/PCIE/workflows/ci/badge.svg
-    :target: https://github.com/stops-top/PCIE/actions
+.. image:: https://github.com/stops-top/PCI-E/workflows/ci/badge.svg
+    :target: https://github.com/stops-top/PCI-E/actions
 
-基于 `PCIe接口 <https://github.com/stops-top/PCIE>`_ 的边缘计算型扩展板卡，用于连接终端设备进行实时处理，或者为主机设备提供环境管理支持
+基于 `PCIe接口 <https://github.com/stops-top/PCI-E>`_ 的边缘计算型扩展板卡，用于连接终端设备进行实时处理，或者为主机设备提供环境管理支持
 
 新一代辅助计算平台，用于资源包管理，数据采集和过滤，作为助教管理深度学习资源，提供相对的本地测试环境等。
 
@@ -24,6 +24,9 @@ PCIe接口
 -----------
 
 用于扩展传统PC电脑功能，实现在通用计算平台上扩展专用功能，实现从数据搜集整理到数据训练和模型部署的全套流程，实现数字资源的管理和固定设施的建设，可以有多种变体。
+
+.. image:: ./images/pcie.jpg
+    :target: https://github.com/stops-top/PCI-E
 
 编码效率
 ~~~~~~~~~~~
