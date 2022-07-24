@@ -5,9 +5,6 @@ QHub
 ===============
 ``Arduino Mega 2560`` ``Raspberry pi`` ``stm32 nucleo``
 
-.. image:: https://github.com/stops-top/USBC/workflows/kicad/badge.svg
-    :target: https://github.com/stops-top/QHUB/actions
-
 通过2.54mm插件连接扩展，作为底座承接 :ref:`ngff` 板卡
 
 

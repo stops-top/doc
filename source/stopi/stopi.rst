@@ -2,7 +2,7 @@
 
 标准定义
 -----------
-
+``STOPi`` ``interface``
 
 .. list-table::
     :header-rows:  1
@@ -12,17 +12,17 @@
       - :ref:`ngff`
       - :ref:`qhub`
       - :ref:`pcie`
-    * - Size(mm)
+    * - Size
       - 8.3x2.5
       - 22x30
       -
       -
     * - Pins
-      - 8
-      - 67
+      - 2-8
+      - 43-67
       -
       -
 
 
 .. note::
-    STOPi(STOP interface)标准化接口定义，统一接口及功能形态定义，用于整合资源达成共识
+    STOPi(STOP interface)标准化接口定义，统一接口形态，整合资源达成共识

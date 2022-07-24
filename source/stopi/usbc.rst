@@ -4,10 +4,10 @@
 USBC
 ===============
 
-.. image:: https://github.com/stops-top/USBC/workflows/kicad/badge.svg
-    :target: https://github.com/stops-top/USBC/actions
-
 ``USB-C`` ``USB-PD`` ``SWD`` ``UART``
+
+
+`USBC 应用场景 <https://special.wch.cn/zh_cn/type-c_application_index/>`_
 
 .. contents::
     :local:

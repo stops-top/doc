@@ -47,6 +47,6 @@
 .. toctree::
     :maxdepth: 1
 
-    转换工具 <joint>
+    连接工具 <joint>
     测试工具 <scope>
     诊断工具 <torch>

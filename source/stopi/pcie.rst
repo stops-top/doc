@@ -5,7 +5,7 @@ PCI-E
 ===============
 ``PCIe`` ``硬件规格`` ``高速外设`` ``主板扩展``
 
-.. image:: https://github.com/stops-top/PCI-E/workflows/ci/badge.svg
+.. image:: https://github.com/stops-top/PCI-E/workflows/kicad/badge.svg
     :target: https://github.com/stops-top/PCI-E/actions
 
 基于 `PCIe接口 <https://github.com/stops-top/PCI-E>`_ 的边缘计算型扩展板卡，用于连接终端设备进行实时处理，或者为主机设备提供环境管理支持
