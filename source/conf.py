@@ -173,7 +173,7 @@ html_show_sphinx = False
 # html_file_suffix = None
 
 # The base URL which points to the root of the HTML documentation
-html_baseurl = "https://docs.stops.top"
+html_baseurl = "https://doc.stops.top"
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = "top"

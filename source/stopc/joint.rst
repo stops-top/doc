@@ -62,9 +62,9 @@ Joint
 ``四通接头`` ``NET + BLE + USB + CAN``
 
 
-`ESP32-S3主控 <https://docs.soc.xin/ESP32-S3>`_
+`ESP32-S3主控 <https://doc.soc.xin/ESP32-S3>`_
 
-`CH32F208主控 <https://docs.soc.xin/CH32F208>`_
+`CH32F208主控 <https://doc.soc.xin/CH32F208>`_
 
 .. _joint_tee:
 
@@ -72,9 +72,9 @@ Joint
 -----------
 ``三通接头`` ``NET + BLE/USB + CAN``
 
-`CH579主控 <https://docs.soc.xin/CH579>`_
+`CH579主控 <https://doc.soc.xin/CH579>`_
 
-`CH32F207主控 <https://docs.soc.xin/CH32F207>`_
+`CH32F207主控 <https://doc.soc.xin/CH32F207>`_
 
 
 .. _joint_way:
@@ -83,7 +83,7 @@ Joint
 -----------
 ``双向接头`` ``BLE + USB``
 
-`CH573主控 <https://docs.soc.xin/CH573>`_
+`CH573主控 <https://doc.soc.xin/CH573>`_
 
 
 .. _joint_debug:

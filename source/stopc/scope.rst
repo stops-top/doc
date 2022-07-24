@@ -32,28 +32,28 @@ H7-Plus
 .. list-table::
     :header-rows:  1
 
-    * - `SoC <https://docs.soc.xin>`_
+    * - `SoC <https://doc.soc.xin>`_
       - ETH
       - USB
       - ADC
       - DAC
       - OPA
       - CMP
-    * - `CH32F207 <https://docs.soc.xin/CH32F207>`_
+    * - `CH32F207 <https://doc.soc.xin/CH32F207>`_
       - 10M(PHY)+1G(MAC)
       - HS OTG
       - 2x12b
       - √
       -
       -
-    * - `CH32V307 <https://docs.soc.xin/CH32V307>`_
+    * - `CH32V307 <https://doc.soc.xin/CH32V307>`_
       - 10M(PHY)+1G(MAC)
       - HS OTG
       - 2x12b
       - √
       -
       -
-    * - `HPM6750 <https://docs.soc.xin/HPM6750>`_
+    * - `HPM6750 <https://doc.soc.xin/HPM6750>`_
       - 2x 1G(MAC)
       - 2x HS OTG
       - 3x12bx5M

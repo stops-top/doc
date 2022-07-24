@@ -31,7 +31,7 @@ ADCNN
 
 `ADCNN <https://github.com/tfmin/ADCNN>`_ 基于MCU的原始ADC数据实现CNN网络处理算法，对ADC的性能及MCU的算力有一定的要求
 
-主控MCU采用 `先楫HPM6750 <https://docs.soc.xin/HPM6750>`_ 封装：LQFP144(14x14) 和 BGA116(7x7)
+主控MCU采用 `先楫HPM6750 <https://doc.soc.xin/HPM6750>`_ 封装：LQFP144(14x14) 和 BGA116(7x7)
 
 * 3390CoreMark
 * 内置768KB SRAM。
