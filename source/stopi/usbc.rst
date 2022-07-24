@@ -7,7 +7,6 @@ USBC
 ``USB-C`` ``USB-PD`` ``SWD`` ``UART``
 
 
-`USBC 应用场景 <https://special.wch.cn/zh_cn/type-c_application_index/>`_
 
 .. contents::
     :local:
@@ -16,6 +15,8 @@ USBC
 
 应用场景
 -----------
+
+`USBC 典型应用场景 <https://special.wch.cn/zh_cn/type-c_application_index/>`_
 
 .. contents::
     :local:

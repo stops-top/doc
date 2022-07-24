@@ -1,11 +1,11 @@
 .. _stool:
 
-支持工具
+外设工具
 -----------
 ``Support Tools``
 
 .. note::
-    智能硬件开发的关键：硬件方案、软件架构和开发工具；软硬件方案解耦和工具通用是项目持续迭代的关键。
+    智能硬件开发的关键：硬件、软件和工具；软硬件方案解耦，工具通用是项目能持续迭代的关键。
 
 .. list-table::
     :header-rows:  1
@@ -18,35 +18,39 @@
       - 供电
       - 相机
       - 调试
+      - 带宽
     * - :ref:`joint`
-      - WiFi/ETH
+      - 
       - √
       - √
       - X
-      - 外接
+      - 
       - X
       - √
+      - 
     * - :ref:`torch`
-      - WiFi
+      - 
       - X
       - FS OTG
       - √
       - 电池
       - √
       - √
+      - 
     * - :ref:`scope`
-      - ETH
+      - 
       - X
       - HS OTG
       - √
       - 外接
       - √
       - √
+      - 
 
 
 .. toctree::
     :maxdepth: 1
 
-    连接工具 <joint>
-    测试工具 <scope>
-    诊断工具 <torch>
+    连接转换 <joint>
+    分析测量 <scope>
+    现场诊断 <torch>

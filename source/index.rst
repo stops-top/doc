@@ -2,16 +2,18 @@
 STOPs
 ==================
 
-
 .. image:: https://github.com/stops-top/doc/workflows/doc/badge.svg
     :target: https://github.com/stops-top/doc/actions
 
+**工欲善其事，必先利其器**
+
+解决的问题完成的项目，都是工程师积累的宝贵财富，也应该是社会财富的积累，通过对数据和经验价值的反向推导，我们通过新的工具来捕获这些财富，并且通过定义标准，让更多人参与这项事业。
 
 .. toctree::
-    :caption: 接口标准 STOPi
+    :caption: 标准定义 STOPi
     :maxdepth: 1
 
-    智慧桥梁 PCI-E <stopi/pcie>
+    管理终端 PCI-E <stopi/pcie>
     嵌入模块 NGFF <stopi/ngff>
     通信扩展 USBC <stopi/usbc>
     测试容器 QHub <stopi/qhub>
@@ -21,11 +23,11 @@ STOPs
     :maxdepth: 1
 
     终端电脑 <stopc/computer>
-    支持工具 <stopc/stool>
+    外设工具 <stopc/stool>
     桌面工厂 <stopc/mills>
 
 .. toctree::
-    :caption: 数据价值 STOPu
+    :caption: 价值产出 STOPu
     :maxdepth: 1
 
     知识管理 <stopu/assets>
