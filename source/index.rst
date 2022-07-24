@@ -3,8 +3,8 @@ STOPs
 ==================
 
 
-.. image:: https://github.com/stops-top/Docs/workflows/Docs/badge.svg
-    :target: https://github.com/stops-top/Docs/actions
+.. image:: https://github.com/stops-top/doc/workflows/doc/badge.svg
+    :target: https://github.com/stops-top/doc/actions
 
 
 .. toctree::
@@ -20,9 +20,9 @@ STOPs
     :caption: 极客装备 STOPc
     :maxdepth: 1
 
-    制式电脑 <stopc/computer>
-    辅助工具 <stopc/stool>
-    桌上工厂 <stopc/mills>
+    制式机箱 <stopc/computer>
+    支持工具 <stopc/stool>
+    桌面工厂 <stopc/mills>
 
 .. toctree::
     :caption: 数据价值 STOPu

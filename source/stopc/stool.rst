@@ -1,7 +1,8 @@
 .. _stool:
 
-STOOL
+支持工具
 -----------
+``Support Tools``
 
 .. note::
     智能硬件开发的关键：硬件方案、软件架构和开发工具；软硬件方案解耦和工具通用是项目持续迭代的关键。
@@ -46,6 +47,6 @@ STOOL
 .. toctree::
     :maxdepth: 1
 
-    转换接头 <joint>
-    开发工具 <scope>
-    现场诊断 <torch>
+    转换工具 <joint>
+    测试工具 <scope>
+    诊断工具 <torch>
