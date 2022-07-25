@@ -4,6 +4,8 @@
 -----------
 ``STOPi`` ``interface``
 
+STOPi(STOP interface)标准化接口定义，统一接口形态，整合资源达成共识
+
 .. list-table::
     :header-rows:  1
 
@@ -13,16 +15,14 @@
       - :ref:`qhub`
       - :ref:`pcie`
     * - Size
-      - 8.3x2.5
-      - 22x30
-      -
+      - 15x20
+      - 22x50
+      - 63x96
       -
     * - Pins
-      - 2-8
+      - 4-24
       - 43-67
-      -
+      - ≤ 180
       -
 
 
-.. note::
-    STOPi(STOP interface)标准化接口定义，统一接口形态，整合资源达成共识
