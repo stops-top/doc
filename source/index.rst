@@ -22,7 +22,7 @@ STOPs
 
     终端电脑 <stopc/computer>
     外设工具 <stopc/stool>
-    桌面工厂 <stopc/mills>
+    桌面工厂 <stopc/taylor>
 
 .. toctree::
     :caption: 价值产出 STOPu
