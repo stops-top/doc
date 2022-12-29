@@ -1,6 +1,5 @@
 *.egg-info
 *.pyc
-.pioenvs
 .tox
 source/_build
 dist
