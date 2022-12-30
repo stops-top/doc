@@ -8,7 +8,7 @@ STOPs
 **工欲善其事，必先利其器**
 
 .. toctree::
-    :caption: 标准接口 STOPi
+    :caption: 标准定义 STOPi
     :maxdepth: 1
 
     管理终端 PCI-E <stopi/pcie>
@@ -20,13 +20,12 @@ STOPs
     :caption: 极客装备 STOPc
     :maxdepth: 1
 
-    移动小屋 Crates <stopc/crates>
-    计算终端 Centra <stopc/centra>
-    外设工具 Stools <stopc/stools>
-    桌面工厂 Taylor <stopc/taylor>
+    终端电脑 <stopc/computer>
+    外设工具 <stopc/stool>
+    桌面工厂 <stopc/taylor>
 
 .. toctree::
-    :caption: 知识变现 STOPu
+    :caption: 价值产出 STOPu
     :maxdepth: 1
 
     知识管理 <stopu/assets>
