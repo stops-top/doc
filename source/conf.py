@@ -176,7 +176,7 @@ html_show_sphinx = False
 html_baseurl = "https://doc.stops.top"
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "stops"
+htmlhelp_basename = "top"
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -235,11 +235,11 @@ man_pages = [("index", "qitas", u"stops", [u"top"], 1)]
 texinfo_documents = [
     (
         "index",
-        "stops",
-        u"stops",
-        u"stops",
         "top",
-        "Online description of project.",
+        u"stops",
+        u"top",
+        "top",
+        "One line description of project.",
         "Miscellaneous",
     ),
 ]
