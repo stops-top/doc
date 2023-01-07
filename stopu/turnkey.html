@@ -42,7 +42,7 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="技术服务" href="service.html" />
+    <link rel="prev" title="Tester" href="tester.html" />
  
 <link rel="stylesheet" href="../_static/css/extra.css" type="text/css" />
 <script src="../_static/js/bootstrap.min.js"></script>
@@ -100,18 +100,18 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">极客装备 STOPc</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../stopc/crates.html">移动小屋 Crates</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../stopc/centra.html">计算终端 Centra</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../stopc/stools.html">外设工具 Stools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../stopc/taylor.html">桌面工厂 Taylor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stopc/stools.html">支持工具 Stools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stopc/crates.html">未来小屋 Crates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stopc/centra.html">计算终端 Centra</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">知识变现 STOPu</span></p>
+<p class="caption" role="heading"><span class="caption-text">数字资产 STOPu</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="assets.html">知识管理</a></li>
-<li class="toctree-l1"><a class="reference internal" href="double.html">数字助理</a></li>
-<li class="toctree-l1"><a class="reference internal" href="service.html">技术服务</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">应用方案</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id2">能量监测</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="crossp.html">协同工具</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tester.html">测试服务</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">方案交付</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">能源监测</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#ccr">CCR</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#adcnn">ADCNN</a></li>
 </ul>
@@ -205,24 +205,18 @@
 <p>一站式方案（Turnkey project，又称turn-key），是一种专案类型，指的是卖方将专案架设好并调整完成，在可立即使用的情况下卖给买家，是科技业中一种常见的技术转移方式。</p>
 <p>从广义上说，Turnkey是一种设计、提供、安装完备随时可以使用的的产品或服务。用户只需要点击一下按钮就可以开始使用这个产品或服务了。</p>
 <section id="id2">
-<h2>能量监测<a class="headerlink" href="#id2" title="Permalink to this heading">¶</a></h2>
+<h2>能源监测<a class="headerlink" href="#id2" title="Permalink to this heading">¶</a></h2>
 <p>基于市电输入和输出的信号实时处理，实现电能的计量和分析，包括电能质量和功率负载变化，通过信号处理分析识别各种状态。</p>
-<nav class="contents local" id="contents">
-<ul class="simple">
-<li><p><a class="reference internal" href="#ccr" id="id4">CCR</a></p></li>
-<li><p><a class="reference internal" href="#adcnn" id="id5">ADCNN</a></p></li>
-</ul>
-</nav>
 <section id="ccr">
-<h3><a class="toc-backref" href="#id4" role="doc-backlink">CCR</a><a class="headerlink" href="#ccr" title="Permalink to this heading">¶</a></h3>
+<h3>CCR<a class="headerlink" href="#ccr" title="Permalink to this heading">¶</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">Current</span> <span class="pre">Characteristics</span> <span class="pre">Recognition</span></code></p>
 <p><a class="reference external" href="https://github.com/stops-top/CCR">CCR (Current Characteristics Recognition)</a> 将成熟的语音识别技术体系运用于电流特征分析，实现对电力负载特征判定</p>
 </section>
 <section id="adcnn">
-<h3><a class="toc-backref" href="#id5" role="doc-backlink">ADCNN</a><a class="headerlink" href="#adcnn" title="Permalink to this heading">¶</a></h3>
+<h3>ADCNN<a class="headerlink" href="#adcnn" title="Permalink to this heading">¶</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">CNN</span></code> <code class="docutils literal notranslate"><span class="pre">ADC</span></code> <code class="docutils literal notranslate"><span class="pre">MCU</span></code></p>
 <p><a class="reference external" href="https://github.com/tfmin/ADCNN">ADCNN</a> 基于MCU的原始ADC数据实现CNN网络处理算法，对ADC的性能及MCU的算力有一定的要求</p>
-<p>主控MCU采用 <a class="reference external" href="https://doc.soc.xin/HPM6750">先楫HPM6750</a> 封装：LQFP144(14x14) 和 BGA116(7x7)</p>
+<p>主控MCU采用 <a class="reference external" href="https://doc.soc.xin/HPM6750">先楫HPM6750</a></p>
 <ul class="simple">
 <li><p>3390CoreMark</p></li>
 <li><p>内置768KB SRAM。</p></li>
@@ -240,7 +234,7 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="service.html" class="btn btn-neutral float-left" title="技术服务" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="tester.html" class="btn btn-neutral float-left" title="Tester" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

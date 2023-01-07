@@ -4,9 +4,6 @@
 -----------
 ``Support Tools``
 
-.. note::
-    智能硬件开发的关键：硬件、软件和工具；软硬件方案解耦，工具通用是项目能持续迭代的关键。
-
 .. list-table::
     :header-rows:  1
 
@@ -47,10 +44,12 @@
       - √
       -
 
+.. note::
+    硬件开发的关键要素：硬件、软件和工具；好开发工具是开发效率的基础。
 
 .. toctree::
     :maxdepth: 1
 
-    连接转换 <joint>
-    分析测量 <scope>
-    现场诊断 <torch>
+    数据接头 <joint>
+    测量工具 <scope>
+    现场调试 <torch>
