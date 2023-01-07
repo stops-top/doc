@@ -2,9 +2,6 @@
 STOPs
 ==================
 
-.. image:: https://github.com/stops-top/doc/workflows/doc/badge.svg
-    :target: https://github.com/stops-top/doc/actions
-
 **工欲善其事，必先利其器**
 
 .. toctree::
@@ -20,20 +17,19 @@ STOPs
     :caption: 极客装备 STOPc
     :maxdepth: 1
 
-    移动小屋 Crates <stopc/crates>
-    计算终端 Centra <stopc/centra>
-    外设工具 Stools <stopc/stools>
     桌面工厂 Taylor <stopc/taylor>
+    支持工具 Stools <stopc/stools>
+    未来小屋 Crates <stopc/crates>
+    计算终端 Centra <stopc/centra>
 
 .. toctree::
-    :caption: 知识变现 STOPu
+    :caption: 数字资产 STOPu
     :maxdepth: 1
 
     知识管理 <stopu/assets>
-    数字助理 <stopu/double>
-    技术服务 <stopu/service>
-    应用方案 <stopu/turnkey>
-
+    协同工具 <stopu/crossp>
+    测试服务 <stopu/tester>
+    方案交付 <stopu/turnkey>
 
 .. image:: _static/images/all.png
     :target: https://www.stops.top
