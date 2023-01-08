@@ -20,6 +20,9 @@ Torch
 具有视频能力的探头，可以作为示波器的一个探头外设，也可以用于无线化的数据收集，结合路由实现无线诊断
 
 
-硬件开源设计： https://oshwhub.com/qitas/esp-tool
+ESP-Tool
+-----------
 
-软件开源方案： https://github.com/stops-top/usb-bridge-esp
+.. image:: images/esp-tool.png
+    :target: https://github.com/stops-top/usb-bridge-esp
+
