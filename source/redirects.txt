@@ -2,12 +2,3 @@
 /ngff.html -> stopi/ngff.html
 /pcie.html -> stopi/pcie.html
 /qhub.html -> stopi/qhub.html
-/joint.html -> stopc/joint.html
-/stools.html -> stopc/stools.html
-/taylor.html -> stopc/taylor.html
-/torch.html -> stopc/torch.html
-/assets.html -> stopu/assets.html
-/crossp.html -> stopu/crossp.html
-/tester.html -> stopu/tester.html
-/turnkey.html -> stopu/turnkey.html
-
