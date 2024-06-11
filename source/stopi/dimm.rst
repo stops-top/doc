@@ -1,7 +1,7 @@
 
-.. _qhub:
+.. _dimm:
 
-QHub
+DIMM
 ===============
 ``Arduino Mega 2560`` ``Raspberry pi`` ``stm32 nucleo``
 

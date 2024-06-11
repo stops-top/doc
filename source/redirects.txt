@@ -1,4 +1,4 @@
 /usbc.html -> stopi/usbc.html
 /ngff.html -> stopi/ngff.html
 /pcie.html -> stopi/pcie.html
-/qhub.html -> stopi/qhub.html
+/dimm.html -> stopi/dimm.html
