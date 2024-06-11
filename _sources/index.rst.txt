@@ -11,4 +11,4 @@ STOPs
     管理终端 PCI-E <stopi/pcie>
     嵌入模块 NGFF <stopi/ngff>
     通信扩展 USBC <stopi/usbc>
-    测试容器 QHub <stopi/qhub>
+    集成核心 DIMM <stopi/dimm>
